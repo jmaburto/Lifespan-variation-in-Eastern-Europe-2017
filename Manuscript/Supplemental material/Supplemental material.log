@@ -1,0 +1,673 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.3)  21 AUG 2017 10:59
+entering extended mode
+**"./Supplemental material.tex"
+("Supplemental material.tex"
+LaTeX2e <2017-04-15>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\filecontents\fileconten
+ts.sty
+Package: filecontents 2011/10/08 v1.3 Create an external file from within a LaT
+eX document
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen111
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen112
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks17
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks18
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen120
+\extrarowheight=\dimen121
+\NC@list=\toks21
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+)
+\c@ContinuedFloat=\count102
+)
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen129
+\Hy@linkcounter=\count103
+\Hy@pagecounter=\count104
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count105
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count106
+
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen130
+\Fld@menulength=\count107
+\Field@Width=\dimen131
+\Fld@charsize=\dimen132
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count108
+\c@Item=\count109
+\c@Hfootnote=\count110
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count111
+\c@bookmark@seq@number=\count112
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count113
+))
+\Gin@req@height=\dimen133
+\Gin@req@width=\dimen134
+)
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count114
+\c@subtable=\count115
+) (C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count116
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count117
+\rotFPtop=\skip51
+\rotFPbot=\skip52
+\rot@float@box=\box28
+\rot@mess@toks=\toks22
+)
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\generic\genmisc\nth.sty
+Package: nth 2002/02/27
+)
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip53
+\@affilsep=\skip54
+\c@Maxaffil=\count118
+\c@authors=\count119
+\c@affil=\count120
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count121
+\multirow@dima=\skip56
+\bigstrutjot=\dimen135
+)
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count122
+\lst@gtempboxa=\box29
+\lst@token=\toks23
+\lst@length=\count123
+\lst@currlwidth=\dimen136
+\lst@column=\count124
+\lst@pos=\count125
+\lst@lostspace=\dimen137
+\lst@width=\dimen138
+\lst@newlines=\count126
+\lst@lineno=\count127
+\lst@maxwidth=\dimen139
+
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count128
+\lst@skipnumbers=\count129
+\lst@framebox=\box30
+)
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks24
+\minrowclearance=\skip57
+)
+\rownum=\count130
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) ("Supplemental material.aux")
+\openout1 = `"Supplemental material.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring ON on input line 33.
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count131
+)
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
+
+("Supplemental material.out") ("Supplemental material.out")
+\@outlinefile=\write3
+\openout3 = `"Supplemental material.out"'.
+
+
+(C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count132
+\scratchdimen=\dimen140
+\scratchbox=\box32
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen141
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks26
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\c@lstlisting=\count138
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+ [1
+
+{C:/Users/jmaburto/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<Figures/Romi_females.pdf, id=16, 867.24pt x 650.43pt>
+File: Figures/Romi_females.pdf Graphic file (type pdf)
+
+<use Figures/Romi_females.pdf>
+Package pdftex.def Info: Figures/Romi_females.pdf used on input line 53.
+(pdftex.def)             Requested size: 476.98349pt x 357.7376pt.
+
+Overfull \hbox (4.95226pt too wide) in paragraph at lines 53--54
+ [] 
+ []
+
+[2 <./Figures/Romi_females.pdf>]
+<Figures/ex_females_labels.pdf, id=34, 867.24pt x 650.43pt>
+File: Figures/ex_females_labels.pdf Graphic file (type pdf)
+
+<use Figures/ex_females_labels.pdf>
+Package pdftex.def Info: Figures/ex_females_labels.pdf used on input line 67.
+(pdftex.def)             Requested size: 346.88986pt x 260.16739pt.
+
+<Figures/ed_females_labels.pdf, id=35, 867.24pt x 650.43pt>
+File: Figures/ed_females_labels.pdf Graphic file (type pdf)
+
+<use Figures/ed_females_labels.pdf>
+Package pdftex.def Info: Figures/ed_females_labels.pdf used on input line 68.
+(pdftex.def)             Requested size: 346.88986pt x 260.16739pt.
+ [3 <./Figures/ex_females_labels.pdf> <./Figures/ed_females_labels.pdf>]
+<Figures/changes_females.pdf, id=62, 722.7pt x 722.7pt>
+File: Figures/changes_females.pdf Graphic file (type pdf)
+
+<use Figures/changes_females.pdf>
+Package pdftex.def Info: Figures/changes_females.pdf used on input line 79.
+(pdftex.def)             Requested size: 469.74944pt x 469.74944pt.
+ [4 <./Figures/changes_females.pdf>]
+<Figures/Age_ed_decomp_Females.pdf, id=82, 939.51pt x 722.7pt>
+File: Figures/Age_ed_decomp_Females.pdf Graphic file (type pdf)
+
+<use Figures/Age_ed_decomp_Females.pdf>
+Package pdftex.def Info: Figures/Age_ed_decomp_Females.pdf used on input line 9
+0.
+(pdftex.def)             Requested size: 432.17984pt x 332.44603pt.
+ [5 <./Figures/Age_ed_decomp_Females.pdf>] <Figures/Cause_ed_decomp_Females_1.p
+df, id=96, 794.97pt x 722.7pt>
+File: Figures/Cause_ed_decomp_Females_1.pdf Graphic file (type pdf)
+
+<use Figures/Cause_ed_decomp_Females_1.pdf>
+Package pdftex.def Info: Figures/Cause_ed_decomp_Females_1.pdf used on input li
+ne 101.
+(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
+ [6 <./Figures/Cause_ed_decomp_Females_1.pdf>] <Figures/Cause_ed_decomp_Females
+_2.pdf, id=110, 794.97pt x 722.7pt>
+File: Figures/Cause_ed_decomp_Females_2.pdf Graphic file (type pdf)
+
+<use Figures/Cause_ed_decomp_Females_2.pdf>
+Package pdftex.def Info: Figures/Cause_ed_decomp_Females_2.pdf used on input li
+ne 112.
+(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
+ [7 <./Figures/Cause_ed_decomp_Females_2.pdf>] <Figures/Infant_ed_decomp.pdf, i
+d=125, 867.24pt x 505.89pt>
+File: Figures/Infant_ed_decomp.pdf Graphic file (type pdf)
+
+<use Figures/Infant_ed_decomp.pdf>
+Package pdftex.def Info: Figures/Infant_ed_decomp.pdf used on input line 128.
+(pdftex.def)             Requested size: 433.61894pt x 252.94437pt.
+
+<Figures/Infant_ex_decomp.pdf, id=126, 867.24pt x 505.89pt>
+File: Figures/Infant_ex_decomp.pdf Graphic file (type pdf)
+
+<use Figures/Infant_ex_decomp.pdf>
+Package pdftex.def Info: Figures/Infant_ex_decomp.pdf used on input line 129.
+(pdftex.def)             Requested size: 433.61894pt x 252.94437pt.
+ [8 <./Figures/Infant_ed_decomp.pdf> <./Figures/Infant_ex_decomp.pdf>]
+<Figures/Age_e0_decomp_Males.pdf, id=149, 939.51pt x 722.7pt>
+File: Figures/Age_e0_decomp_Males.pdf Graphic file (type pdf)
+
+<use Figures/Age_e0_decomp_Males.pdf>
+Package pdftex.def Info: Figures/Age_e0_decomp_Males.pdf used on input line 143
+.
+(pdftex.def)             Requested size: 432.17984pt x 332.44603pt.
+ [9 <./Figures/Age_e0_decomp_Males.pdf>]
+<Figures/Age_e0_decomp_Females.pdf, id=164, 939.51pt x 722.7pt>
+File: Figures/Age_e0_decomp_Females.pdf Graphic file (type pdf)
+
+<use Figures/Age_e0_decomp_Females.pdf>
+Package pdftex.def Info: Figures/Age_e0_decomp_Females.pdf used on input line 1
+54.
+(pdftex.def)             Requested size: 432.17984pt x 332.44603pt.
+ [10 <./Figures/Age_e0_decomp_Females.pdf>] <Figures/Cause_e0_decomp_Males_1.pd
+f, id=178, 794.97pt x 722.7pt>
+File: Figures/Cause_e0_decomp_Males_1.pdf Graphic file (type pdf)
+
+<use Figures/Cause_e0_decomp_Males_1.pdf>
+Package pdftex.def Info: Figures/Cause_e0_decomp_Males_1.pdf used on input line
+ 165.
+(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
+ [11 <./Figures/Cause_e0_decomp_Males_1.pdf>] <Figures/Cause_e0_decomp_Males_2.
+pdf, id=192, 794.97pt x 722.7pt>
+File: Figures/Cause_e0_decomp_Males_2.pdf Graphic file (type pdf)
+
+<use Figures/Cause_e0_decomp_Males_2.pdf>
+Package pdftex.def Info: Figures/Cause_e0_decomp_Males_2.pdf used on input line
+ 175.
+(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
+ [12 <./Figures/Cause_e0_decomp_Males_2.pdf>] <Figures/Cause_e0_decomp_Females_
+1.pdf, id=206, 794.97pt x 722.7pt>
+File: Figures/Cause_e0_decomp_Females_1.pdf Graphic file (type pdf)
+
+<use Figures/Cause_e0_decomp_Females_1.pdf>
+Package pdftex.def Info: Figures/Cause_e0_decomp_Females_1.pdf used on input li
+ne 186.
+(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
+ [13 <./Figures/Cause_e0_decomp_Females_1.pdf>]
+<Figures/Cause_e0_decomp_Females_2.pdf, id=221, 794.97pt x 722.7pt>
+File: Figures/Cause_e0_decomp_Females_2.pdf Graphic file (type pdf)
+
+<use Figures/Cause_e0_decomp_Females_2.pdf>
+Package pdftex.def Info: Figures/Cause_e0_decomp_Females_2.pdf used on input li
+ne 197.
+(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
+ [14 <./Figures/Cause_e0_decomp_Females_2.pdf>] <Figures/F1_SS.pdf, id=235, 101
+1.78pt x 1011.78pt>
+File: Figures/F1_SS.pdf Graphic file (type pdf)
+
+<use Figures/F1_SS.pdf>
+Package pdftex.def Info: Figures/F1_SS.pdf used on input line 209.
+(pdftex.def)             Requested size: 404.70483pt x 404.70483pt.
+ [15 <./Figures/F1_SS.pdf>]
+<Figures/F2_SS.pdf, id=253, 939.51pt x 650.43pt>
+File: Figures/F2_SS.pdf Graphic file (type pdf)
+ <use Figures/F2_SS.pdf>
+Package pdftex.def Info: Figures/F2_SS.pdf used on input line 219.
+(pdftex.def)             Requested size: 375.79733pt x 260.16739pt.
+
+[16 <./Figures/F2_SS.pdf>] <Figures/F3_SS.pdf, id=269, 939.51pt x 650.43pt>
+File: Figures/F3_SS.pdf Graphic file (type pdf)
+
+<use Figures/F3_SS.pdf>
+Package pdftex.def Info: Figures/F3_SS.pdf used on input line 229.
+(pdftex.def)             Requested size: 375.79733pt x 260.16739pt.
+ [17 <./Figures/F3_SS.pdf>]
+<Figures/F6_SS_MalesInfant_Periods.pdf, id=285, 650.43pt x 361.35pt>
+File: Figures/F6_SS_MalesInfant_Periods.pdf Graphic file (type pdf)
+
+<use Figures/F6_SS_MalesInfant_Periods.pdf>
+Package pdftex.def Info: Figures/F6_SS_MalesInfant_Periods.pdf used on input li
+ne 239.
+(pdftex.def)             Requested size: 390.261pt x 216.81168pt.
+ [18 <./Figures/F6_SS_MalesInfant_Periods.pdf>]
+<Figures/F4_SS_MalesDecomp_Periods.pdf, id=298, 794.97pt x 650.43pt>
+File: Figures/F4_SS_MalesDecomp_Periods.pdf Graphic file (type pdf)
+
+<use Figures/F4_SS_MalesDecomp_Periods.pdf>
+Package pdftex.def Info: Figures/F4_SS_MalesDecomp_Periods.pdf used on input li
+ne 249.
+(pdftex.def)             Requested size: 429.2774pt x 351.22696pt.
+ [19 <./Figures/F4_SS_MalesDecomp_Periods.pdf>] ("Supplemental material.bbl")
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
+ ("Supplemental material.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
+Package rerunfilecheck Info: File `"Supplemental material".out' has not changed
+.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
+ ) 
+Here is how much of TeX's memory you used:
+ 9665 strings out of 493328
+ 144519 string characters out of 3139116
+ 241250 words of memory out of 3000000
+ 13022 multiletter control sequences out of 15000+200000
+ 9854 words of font info for 36 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,7n,39p,1502b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "Supplemental material.pdf" (20 pages, 1101481 bytes).
+PDF statistics:
+ 373 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+
