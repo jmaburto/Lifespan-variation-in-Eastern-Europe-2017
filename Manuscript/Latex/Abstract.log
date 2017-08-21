@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.3)  21 AUG 2017 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.3)  21 AUG 2017 16:57
 entering extended mode
-**"./Supplemental material.tex"
-("Supplemental material.tex"
+**./Abstract.tex
+(Abstract.tex
 LaTeX2e <2017-04-15>
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -298,6 +298,14 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box28
 \rot@mess@toks=\toks22
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 (C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\generic\genmisc\nth.sty
 Package: nth 2002/02/27
 )
@@ -363,23 +371,23 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) ("Supplemental material.aux")
-\openout1 = `"Supplemental material.aux"'.
+) (Abstract.aux)
+\openout1 = `Abstract.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -421,7 +429,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 34.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -430,13 +438,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count131
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
 
-("Supplemental material.out") ("Supplemental material.out")
+(Abstract.out) (Abstract.out)
 \@outlinefile=\write3
-\openout3 = `"Supplemental material.out"'.
+\openout3 = `Abstract.out'.
 
 
 (C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
@@ -466,208 +474,274 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \c@lstlisting=\count138
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
  [1
 
-{C:/Users/jmaburto/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<Figures/Romi_females.pdf, id=16, 867.24pt x 650.43pt>
-File: Figures/Romi_females.pdf Graphic file (type pdf)
+{C:/Users/jmaburto/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
-<use Figures/Romi_females.pdf>
-Package pdftex.def Info: Figures/Romi_females.pdf used on input line 53.
-(pdftex.def)             Requested size: 476.98349pt x 357.7376pt.
+ []
 
-Overfull \hbox (4.95226pt too wide) in paragraph at lines 53--54
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--194
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--201
+
+ []
+
+[14] [15] (Abstract.bbl [16] [17]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [18]) [19]
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+\OT1/cmr/m/n/10 Y40-Y84,W00-W19,W65-W74,W75-
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 230--231
+\OT1/cmr/m/n/10 X50-X59, Y85-Y91, Y95-Y98) and
+ []
+
+
+Overfull \hbox (7.21284pt too wide) in paragraph at lines 219--236
  [] 
  []
 
-[2 <./Figures/Romi_females.pdf>]
-<Figures/ex_females_labels.pdf, id=34, 867.24pt x 650.43pt>
-File: Figures/ex_females_labels.pdf Graphic file (type pdf)
+[20]
+Overfull \hbox (28.74324pt too wide) in paragraph at lines 248--277
+ [][] 
+ []
 
-<use Figures/ex_females_labels.pdf>
-Package pdftex.def Info: Figures/ex_females_labels.pdf used on input line 67.
-(pdftex.def)             Requested size: 346.88986pt x 260.16739pt.
+[21] <Figures/Romi_males.pdf, id=449, 867.24pt x 650.43pt>
+File: Figures/Romi_males.pdf Graphic file (type pdf)
 
-<Figures/ed_females_labels.pdf, id=35, 867.24pt x 650.43pt>
-File: Figures/ed_females_labels.pdf Graphic file (type pdf)
+<use Figures/Romi_males.pdf>
+Package pdftex.def Info: Figures/Romi_males.pdf used on input line 288.
+(pdftex.def)             Requested size: 476.98349pt x 357.7376pt.
 
-<use Figures/ed_females_labels.pdf>
-Package pdftex.def Info: Figures/ed_females_labels.pdf used on input line 68.
-(pdftex.def)             Requested size: 346.88986pt x 260.16739pt.
- [3 <./Figures/ex_females_labels.pdf> <./Figures/ed_females_labels.pdf>]
-<Figures/changes_females.pdf, id=62, 722.7pt x 722.7pt>
-File: Figures/changes_females.pdf Graphic file (type pdf)
+Overfull \hbox (4.95226pt too wide) in paragraph at lines 288--289
+ [] 
+ []
 
-<use Figures/changes_females.pdf>
-Package pdftex.def Info: Figures/changes_females.pdf used on input line 79.
+<Figures/ex_males.pdf, id=452, 1010.20851pt x 704.31319pt>
+File: Figures/ex_males.pdf Graphic file (type pdf)
+
+<use Figures/ex_males.pdf>
+Package pdftex.def Info: Figures/ex_males.pdf used on input line 301.
+(pdftex.def)             Requested size: 404.07625pt x 281.72028pt.
+
+<Figures/ed_males.pdf, id=453, 1010.20851pt x 704.31319pt>
+File: Figures/ed_males.pdf Graphic file (type pdf)
+
+<use Figures/ed_males.pdf>
+Package pdftex.def Info: Figures/ed_males.pdf used on input line 302.
+(pdftex.def)             Requested size: 404.07625pt x 281.72028pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22
+
+
+ <./Figures/Romi_males.pdf>]
+<Figures/changes_males.pdf, id=467, 722.7pt x 722.7pt>
+File: Figures/changes_males.pdf Graphic file (type pdf)
+
+<use Figures/changes_males.pdf>
+Package pdftex.def Info: Figures/changes_males.pdf used on input line 314.
 (pdftex.def)             Requested size: 469.74944pt x 469.74944pt.
- [4 <./Figures/changes_females.pdf>]
-<Figures/Age_ed_decomp_Females.pdf, id=82, 939.51pt x 722.7pt>
-File: Figures/Age_ed_decomp_Females.pdf Graphic file (type pdf)
 
-<use Figures/Age_ed_decomp_Females.pdf>
-Package pdftex.def Info: Figures/Age_ed_decomp_Females.pdf used on input line 9
-0.
-(pdftex.def)             Requested size: 432.17984pt x 332.44603pt.
- [5 <./Figures/Age_ed_decomp_Females.pdf>] <Figures/Cause_ed_decomp_Females_1.p
-df, id=96, 794.97pt x 722.7pt>
-File: Figures/Cause_ed_decomp_Females_1.pdf Graphic file (type pdf)
 
-<use Figures/Cause_ed_decomp_Females_1.pdf>
-Package pdftex.def Info: Figures/Cause_ed_decomp_Females_1.pdf used on input li
-ne 101.
-(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
- [6 <./Figures/Cause_ed_decomp_Females_1.pdf>] <Figures/Cause_ed_decomp_Females
-_2.pdf, id=110, 794.97pt x 722.7pt>
-File: Figures/Cause_ed_decomp_Females_2.pdf Graphic file (type pdf)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<use Figures/Cause_ed_decomp_Females_2.pdf>
-Package pdftex.def Info: Figures/Cause_ed_decomp_Females_2.pdf used on input li
-ne 112.
-(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
- [7 <./Figures/Cause_ed_decomp_Females_2.pdf>] <Figures/Infant_ed_decomp.pdf, i
-d=125, 867.24pt x 505.89pt>
-File: Figures/Infant_ed_decomp.pdf Graphic file (type pdf)
+<Figures/Age_ed_decomp_Males.pdf, id=470, 939.51pt x 722.7pt>
+File: Figures/Age_ed_decomp_Males.pdf Graphic file (type pdf)
 
-<use Figures/Infant_ed_decomp.pdf>
-Package pdftex.def Info: Figures/Infant_ed_decomp.pdf used on input line 128.
-(pdftex.def)             Requested size: 433.61894pt x 252.94437pt.
-
-<Figures/Infant_ex_decomp.pdf, id=126, 867.24pt x 505.89pt>
-File: Figures/Infant_ex_decomp.pdf Graphic file (type pdf)
-
-<use Figures/Infant_ex_decomp.pdf>
-Package pdftex.def Info: Figures/Infant_ex_decomp.pdf used on input line 129.
-(pdftex.def)             Requested size: 433.61894pt x 252.94437pt.
- [8 <./Figures/Infant_ed_decomp.pdf> <./Figures/Infant_ex_decomp.pdf>]
-<Figures/Age_e0_decomp_Males.pdf, id=149, 939.51pt x 722.7pt>
-File: Figures/Age_e0_decomp_Males.pdf Graphic file (type pdf)
-
-<use Figures/Age_e0_decomp_Males.pdf>
-Package pdftex.def Info: Figures/Age_e0_decomp_Males.pdf used on input line 143
+<use Figures/Age_ed_decomp_Males.pdf>
+Package pdftex.def Info: Figures/Age_ed_decomp_Males.pdf used on input line 326
 .
-(pdftex.def)             Requested size: 432.17984pt x 332.44603pt.
- [9 <./Figures/Age_e0_decomp_Males.pdf>]
-<Figures/Age_e0_decomp_Females.pdf, id=164, 939.51pt x 722.7pt>
-File: Figures/Age_e0_decomp_Females.pdf Graphic file (type pdf)
+(pdftex.def)             Requested size: 488.54802pt x 375.80615pt.
 
-<use Figures/Age_e0_decomp_Females.pdf>
-Package pdftex.def Info: Figures/Age_e0_decomp_Females.pdf used on input line 1
-54.
-(pdftex.def)             Requested size: 432.17984pt x 332.44603pt.
- [10 <./Figures/Age_e0_decomp_Females.pdf>] <Figures/Cause_e0_decomp_Males_1.pd
-f, id=178, 794.97pt x 722.7pt>
-File: Figures/Cause_e0_decomp_Males_1.pdf Graphic file (type pdf)
+Overfull \hbox (16.51678pt too wide) in paragraph at lines 326--327
+ [] 
+ []
 
-<use Figures/Cause_e0_decomp_Males_1.pdf>
-Package pdftex.def Info: Figures/Cause_e0_decomp_Males_1.pdf used on input line
- 165.
-(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
- [11 <./Figures/Cause_e0_decomp_Males_1.pdf>] <Figures/Cause_e0_decomp_Males_2.
-pdf, id=192, 794.97pt x 722.7pt>
-File: Figures/Cause_e0_decomp_Males_2.pdf Graphic file (type pdf)
 
-<use Figures/Cause_e0_decomp_Males_2.pdf>
-Package pdftex.def Info: Figures/Cause_e0_decomp_Males_2.pdf used on input line
- 175.
-(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
- [12 <./Figures/Cause_e0_decomp_Males_2.pdf>] <Figures/Cause_e0_decomp_Females_
-1.pdf, id=206, 794.97pt x 722.7pt>
-File: Figures/Cause_e0_decomp_Females_1.pdf Graphic file (type pdf)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<use Figures/Cause_e0_decomp_Females_1.pdf>
-Package pdftex.def Info: Figures/Cause_e0_decomp_Females_1.pdf used on input li
-ne 186.
-(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
- [13 <./Figures/Cause_e0_decomp_Females_1.pdf>]
-<Figures/Cause_e0_decomp_Females_2.pdf, id=221, 794.97pt x 722.7pt>
-File: Figures/Cause_e0_decomp_Females_2.pdf Graphic file (type pdf)
+<Figures/Cause_ed_decomp_Males_1.pdf, id=473, 794.97pt x 722.7pt>
+File: Figures/Cause_ed_decomp_Males_1.pdf Graphic file (type pdf)
 
-<use Figures/Cause_e0_decomp_Females_2.pdf>
-Package pdftex.def Info: Figures/Cause_e0_decomp_Females_2.pdf used on input li
-ne 197.
-(pdftex.def)             Requested size: 397.48402pt x 361.3491pt.
- [14 <./Figures/Cause_e0_decomp_Females_2.pdf>] <Figures/F1_SS.pdf, id=235, 101
-1.78pt x 1011.78pt>
-File: Figures/F1_SS.pdf Graphic file (type pdf)
+<use Figures/Cause_ed_decomp_Males_1.pdf>
+Package pdftex.def Info: Figures/Cause_ed_decomp_Males_1.pdf used on input line
+ 338.
+(pdftex.def)             Requested size: 421.33209pt x 383.02917pt.
 
-<use Figures/F1_SS.pdf>
-Package pdftex.def Info: Figures/F1_SS.pdf used on input line 209.
-(pdftex.def)             Requested size: 404.70483pt x 404.70483pt.
- [15 <./Figures/F1_SS.pdf>]
-<Figures/F2_SS.pdf, id=253, 939.51pt x 650.43pt>
-File: Figures/F2_SS.pdf Graphic file (type pdf)
- <use Figures/F2_SS.pdf>
-Package pdftex.def Info: Figures/F2_SS.pdf used on input line 219.
-(pdftex.def)             Requested size: 375.79733pt x 260.16739pt.
 
-[16 <./Figures/F2_SS.pdf>] <Figures/F3_SS.pdf, id=269, 939.51pt x 650.43pt>
-File: Figures/F3_SS.pdf Graphic file (type pdf)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<use Figures/F3_SS.pdf>
-Package pdftex.def Info: Figures/F3_SS.pdf used on input line 229.
-(pdftex.def)             Requested size: 375.79733pt x 260.16739pt.
- [17 <./Figures/F3_SS.pdf>]
-<Figures/F6_SS_MalesInfant_Periods.pdf, id=285, 650.43pt x 361.35pt>
-File: Figures/F6_SS_MalesInfant_Periods.pdf Graphic file (type pdf)
+<Figures/Cause_ed_decomp_Males_2.pdf, id=476, 794.97pt x 722.7pt>
+File: Figures/Cause_ed_decomp_Males_2.pdf Graphic file (type pdf)
 
-<use Figures/F6_SS_MalesInfant_Periods.pdf>
-Package pdftex.def Info: Figures/F6_SS_MalesInfant_Periods.pdf used on input li
-ne 239.
-(pdftex.def)             Requested size: 390.261pt x 216.81168pt.
- [18 <./Figures/F6_SS_MalesInfant_Periods.pdf>]
-<Figures/F4_SS_MalesDecomp_Periods.pdf, id=298, 794.97pt x 650.43pt>
-File: Figures/F4_SS_MalesDecomp_Periods.pdf Graphic file (type pdf)
+<use Figures/Cause_ed_decomp_Males_2.pdf>
+Package pdftex.def Info: Figures/Cause_ed_decomp_Males_2.pdf used on input line
+ 350.
+(pdftex.def)             Requested size: 421.33209pt x 383.02917pt.
 
-<use Figures/F4_SS_MalesDecomp_Periods.pdf>
-Package pdftex.def Info: Figures/F4_SS_MalesDecomp_Periods.pdf used on input li
-ne 249.
-(pdftex.def)             Requested size: 429.2774pt x 351.22696pt.
- [19 <./Figures/F4_SS_MalesDecomp_Periods.pdf>] ("Supplemental material.bbl")
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
- [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
- ("Supplemental material.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
-Package rerunfilecheck Info: File `"Supplemental material".out' has not changed
-.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
+[23 <./Figures/ex_males.pdf> <./Figures/ed_males.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/ed_males.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] [24 <./Figures/changes_males.pdf>] [25 <./Figures/Age_ed_decomp_Males.pdf>]
+[26 <./Figures/Cause_ed_decomp_Males_1.pdf>] [27 <./Figures/Cause_ed_decomp_Mal
+es_2.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
+ (Abstract.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 363.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
+Package rerunfilecheck Info: File `Abstract.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 363.
  ) 
 Here is how much of TeX's memory you used:
- 9665 strings out of 493328
- 144519 string characters out of 3139116
- 241250 words of memory out of 3000000
- 13022 multiletter control sequences out of 15000+200000
- 9854 words of font info for 36 fonts, out of 3000000 for 9000
+ 9886 strings out of 493328
+ 148015 string characters out of 3139116
+ 261112 words of memory out of 3000000
+ 13183 multiletter control sequences out of 15000+200000
+ 10637 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,39p,1502b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Supplemental material.pdf" (20 pages, 1102006 bytes).
+ 41i,11n,39p,2131b,533s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on Abstract.pdf (27 pages, 1239794 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 804 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
