@@ -1246,26 +1246,4 @@
   publisher = {American Medical Association},
 }
 
-@Article{avenoso2005safety,
-  author  = {Avenoso, Antonio and Beckmann, J{\"o}rg},
-  title   = {The safety of vulnerable road users in the southern, eastern and central European countries (The “SEC Belt”)},
-  journal = {Brussels: European Transport Safety Council},
-  year    = {2005},
-}
-
-@Misc{world2013global,
-  title     = {Global status report on road safety 2013: supporting a decade of action},
-  Author = {{{World Health Organization}}},
-  year      = {2013},
-  publisher    = {World Health Organization. Violence and Injury Prevention and World Health Organization},
-}
-
-@Misc{world2009european,
-  author    = {{{World Health Organization}}},
-  title     = {European status report on road safety: towards safer roads and healthier transport choices},
-  year      = {2009},
-  publisher = {Copenhagen: WHO Regional Office for Europe},
-}
-
-
 @Comment{jabref-meta: databaseType:bibtex;}

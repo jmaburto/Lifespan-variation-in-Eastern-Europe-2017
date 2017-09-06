@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.3)  22 AUG 2017 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.3)  5 SEP 2017 16:13
 entering extended mode
-**./Abstract.tex
-(Abstract.tex
+**"./Abstract 050917.tex"
+("Abstract 050917.tex"
 LaTeX2e <2017-04-15>
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -371,8 +371,8 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (Abstract.aux)
-\openout1 = `Abstract.aux'.
+) ("Abstract 050917.aux")
+\openout1 = `"Abstract 050917.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -442,9 +442,9 @@ LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
 
-(Abstract.out) (Abstract.out)
+("Abstract 050917.out") ("Abstract 050917.out")
 \@outlinefile=\write3
-\openout3 = `Abstract.out'.
+\openout3 = `"Abstract 050917.out"'.
 
 
 (C:\Users\jmaburto\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
@@ -486,92 +486,97 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
  [1
 
 {C:/Users/jmaburto/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 68--71
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 93--96
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -585,103 +590,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 [8]
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
-
- []
-
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
@@ -695,77 +685,84 @@ Missing character: There is no Ô in font cmr10!
 Missing character: There is no ¨ in font cmr10!
 Missing character: There is no Ç in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--215
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
-
- []
-
-[15] [16] (Abstract.bbl [17] [18]
+[15] [16] ("Abstract 050917.bbl"
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [17] [18] [19]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [19]) [20]
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+) [20]
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 \OT1/cmr/m/n/10 Y40-Y84,W00-W19,W65-W74,W75-
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 253--254
+Underfull \hbox (badness 4120) in paragraph at lines 247--248
 \OT1/cmr/m/n/10 X50-X59, Y85-Y91, Y95-Y98) and
  []
 
 
-Overfull \hbox (7.21284pt too wide) in paragraph at lines 242--259
+Overfull \hbox (7.21284pt too wide) in paragraph at lines 236--253
  [] 
  []
 
 [21]
-Overfull \hbox (28.74324pt too wide) in paragraph at lines 271--300
+Overfull \hbox (28.74324pt too wide) in paragraph at lines 265--294
  [][] 
  []
 
-[22] <Figures/Romi_males.pdf, id=454, 867.24pt x 650.43pt>
+[22] <Figures/Romi_males.pdf, id=500, 867.24pt x 650.43pt>
 File: Figures/Romi_males.pdf Graphic file (type pdf)
 
 <use Figures/Romi_males.pdf>
-Package pdftex.def Info: Figures/Romi_males.pdf used on input line 311.
+Package pdftex.def Info: Figures/Romi_males.pdf used on input line 305.
 (pdftex.def)             Requested size: 476.98349pt x 357.7376pt.
 
-Overfull \hbox (4.95226pt too wide) in paragraph at lines 311--312
+Overfull \hbox (4.95226pt too wide) in paragraph at lines 305--306
  [] 
  []
 
-<Figures/ex_males.pdf, id=457, 1010.20851pt x 704.31319pt>
+<Figures/ex_males.pdf, id=503, 1010.20851pt x 704.31319pt>
 File: Figures/ex_males.pdf Graphic file (type pdf)
 
 <use Figures/ex_males.pdf>
-Package pdftex.def Info: Figures/ex_males.pdf used on input line 324.
+Package pdftex.def Info: Figures/ex_males.pdf used on input line 318.
 (pdftex.def)             Requested size: 404.07625pt x 281.72028pt.
 
-<Figures/ed_males.pdf, id=458, 1010.20851pt x 704.31319pt>
+<Figures/ed_males.pdf, id=504, 1010.20851pt x 704.31319pt>
 File: Figures/ed_males.pdf Graphic file (type pdf)
 
 <use Figures/ed_males.pdf>
-Package pdftex.def Info: Figures/ed_males.pdf used on input line 325.
+Package pdftex.def Info: Figures/ed_males.pdf used on input line 319.
 (pdftex.def)             Requested size: 404.07625pt x 281.72028pt.
 
 
@@ -775,54 +772,54 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
  <./Figures/Romi_males.pdf>]
-<Figures/changes_males.pdf, id=472, 722.7pt x 722.7pt>
+<Figures/changes_males.pdf, id=518, 722.7pt x 722.7pt>
 File: Figures/changes_males.pdf Graphic file (type pdf)
 
 <use Figures/changes_males.pdf>
-Package pdftex.def Info: Figures/changes_males.pdf used on input line 337.
+Package pdftex.def Info: Figures/changes_males.pdf used on input line 331.
 (pdftex.def)             Requested size: 469.74944pt x 469.74944pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/Age_ed_decomp_Males.pdf, id=475, 939.51pt x 722.7pt>
+<Figures/Age_ed_decomp_Males.pdf, id=521, 939.51pt x 722.7pt>
 File: Figures/Age_ed_decomp_Males.pdf Graphic file (type pdf)
 
 <use Figures/Age_ed_decomp_Males.pdf>
-Package pdftex.def Info: Figures/Age_ed_decomp_Males.pdf used on input line 349
+Package pdftex.def Info: Figures/Age_ed_decomp_Males.pdf used on input line 343
 .
 (pdftex.def)             Requested size: 488.54802pt x 375.80615pt.
 
-Overfull \hbox (16.51678pt too wide) in paragraph at lines 349--350
+Overfull \hbox (16.51678pt too wide) in paragraph at lines 343--344
  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/Cause_ed_decomp_Males_1.pdf, id=478, 794.97pt x 722.7pt>
+<Figures/Cause_ed_decomp_Males_1.pdf, id=524, 794.97pt x 722.7pt>
 File: Figures/Cause_ed_decomp_Males_1.pdf Graphic file (type pdf)
 
 <use Figures/Cause_ed_decomp_Males_1.pdf>
 Package pdftex.def Info: Figures/Cause_ed_decomp_Males_1.pdf used on input line
- 361.
+ 355.
 (pdftex.def)             Requested size: 421.33209pt x 383.02917pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/Cause_ed_decomp_Males_2.pdf, id=481, 794.97pt x 722.7pt>
+<Figures/Cause_ed_decomp_Males_2.pdf, id=527, 794.97pt x 722.7pt>
 File: Figures/Cause_ed_decomp_Males_2.pdf Graphic file (type pdf)
 
 <use Figures/Cause_ed_decomp_Males_2.pdf>
 Package pdftex.def Info: Figures/Cause_ed_decomp_Males_2.pdf used on input line
- 373.
+ 367.
 (pdftex.def)             Requested size: 421.33209pt x 383.02917pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 386.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
 [24 <./Figures/ex_males.pdf> <./Figures/ed_males.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/ed_males.pdf): PDF inclusion: multiple
@@ -830,28 +827,27 @@ pdfTeX warning: pdflatex (file ./Figures/ed_males.pdf): PDF inclusion: multiple
 >] [25 <./Figures/changes_males.pdf>] [26 <./Figures/Age_ed_decomp_Males.pdf>]
 [27 <./Figures/Cause_ed_decomp_Males_1.pdf>] [28 <./Figures/Cause_ed_decomp_Mal
 es_2.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 386.
- (Abstract.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 386.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 386.
-Package rerunfilecheck Info: File `Abstract.out' has not changed.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
+ ("Abstract 050917.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
+Package rerunfilecheck Info: File `"Abstract 050917".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 386.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
  ) 
 Here is how much of TeX's memory you used:
- 9887 strings out of 493328
- 148022 string characters out of 3139116
- 261112 words of memory out of 3000000
- 13183 multiletter control sequences out of 15000+200000
+ 9924 strings out of 493328
+ 149070 string characters out of 3139116
+ 261443 words of memory out of 3000000
+ 13210 multiletter control sequences out of 15000+200000
  10637 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,39p,2134b,533s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
+ 41i,11n,39p,2386b,529s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
 , replaced by a fixed one
@@ -883,9 +879,9 @@ c/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Abstract.pdf (28 pages, 1241120 bytes).
+Output written on "Abstract 050917.pdf" (28 pages, 1251863 bytes).
 PDF statistics:
- 809 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
+ 856 PDF objects out of 1000 (max. 8388607)
+ 120 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

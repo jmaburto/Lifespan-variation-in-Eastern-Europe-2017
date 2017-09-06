@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Avenoso and Beckmann, 2005]{avenoso2005safety}
+Avenoso, A. and Beckmann, J. (2005).
+\newblock The safety of vulnerable road users in the southern, eastern and
+  central european countries (the “sec belt”).
+\newblock {\em Brussels: European Transport Safety Council}.
+
 \bibitem[Bell et~al., 2017]{bell2017}
 Bell, S., Daskalopoulou, M., Rapsomaniki, E., George, J., Britton, A., Bobak,
   M., Casas, J.~P., Dale, C.~E., Denaxas, S., Shah, A.~D., et~al. (2017).
@@ -16,8 +22,14 @@ Bellis, M., Hughes, K., Cook, P., and Morleo, M. (2009).
 \bibitem[Br{\o}nnum-Hansen, 2017]{bronnum-hansen2017}
 Br{\o}nnum-Hansen, H. (2017).
 \newblock Socially disparate trends in lifespan variation: a trend study on
-  income and mortality based on nationwide danish register data.
+  income and mortality based on nationwide {D}anish register data.
 \newblock {\em BMJ Open}, 7(5):83--96.
+
+\bibitem[Bye, 2008]{bye2008alcohol}
+Bye, E.~K. (2008).
+\newblock Alcohol and homicide in {E}astern {E}urope: A time series analysis of
+  six countries.
+\newblock {\em Homicide studies}, 12(1):7--27.
 
 \bibitem[Camarda, 2012]{Camarda2012}
 Camarda, C.~G. (2012).
@@ -32,18 +44,17 @@ Case, A. and Deaton, A. (2015).
 \newblock {\em Proceedings of the National Academy of Sciences},
   112(49):15078--15083.
 
+\bibitem[Caselli et~al., 2002]{caselli2002epidemiologic}
+Caselli, G., Mesl{\'e}, F., and Vallin, J. (2002).
+\newblock Epidemiologic transition theory exceptions.
+\newblock {\em Genus}, pages 9--51.
+
 \bibitem[Chenet et~al., 1996]{chenet1996}
 Chenet, L., McKee, M., Fulop, N., Bojan, F., Brand, H., Hort, A., and
   Kalbarczyk, P. (1996).
 \newblock Changing life expectancy in central {E}urope: is there a {S}ingle
   reason?
 \newblock {\em Journal of Public Health}, 18(3):329--336.
-
-\bibitem[Cockerham, 1997]{Cockerham1997}
-Cockerham, W.~C. (1997).
-\newblock The social determinants of the decline of life expectancy in {R}ussia
-  and {E}astern {E}urope: A lifestyle explanation.
-\newblock {\em Journal of Health and Social Behavior}, 38(2):117--130.
 
 \bibitem[Colchero et~al., 2016]{colchero2016emergence}
 Colchero, F., Rau, R., Jones, O.~R., Barthold, J.~A., Conde, D.~A., Lenart, A.,
@@ -60,7 +71,7 @@ Edwards, R.~D. and Tuljapurkar, S. (2005).
 
 \bibitem[Evgeny, 2010]{evgeny2010beverage}
 Evgeny, R.~Y. (2010).
-\newblock Beverage-specific alcohol sales and violent mortality in russia.
+\newblock Beverage-specific alcohol sales and violent mortality in {R}ussia.
 \newblock {\em Adicciones}, 22(4).
 
 \bibitem[Ezzati and Lopez, 2003]{ezzati2003estimates}
@@ -136,6 +147,11 @@ Kraus, L., {\O}sthus, S., Amundsen, E.~J., Piontek, D., H{\"a}rk{\"o}nen, J.,
   comparative age--period--cohort analysis.
 \newblock {\em Addiction}, 110(9):1443--1452.
 
+\bibitem[Leon, 2011]{leon2011}
+Leon, D.~A. (2011).
+\newblock Trends in {E}uropean life expectancy: a salutary view.
+\newblock {\em International journal of epidemiology}, 40(2):271--277.
+
 \bibitem[Leon et~al., 1997]{leon1997huge}
 Leon, D.~A., Chenet, L., Shkolnikov, V.~M., Zakharov, S., Shapiro, J.,
   Rakhmanova, G., Vassin, S., and McKee, M. (1997).
@@ -143,10 +159,21 @@ Leon, D.~A., Chenet, L., Shkolnikov, V.~M., Zakharov, S., Shapiro, J.,
   alcohol, or what?
 \newblock {\em The lancet}, 350(9075):383--388.
 
+\bibitem[Leon and Shkolnikov, 1998]{leon1998social}
+Leon, D.~A. and Shkolnikov, V.~M. (1998).
+\newblock Social stress and the russian mortality crisis.
+\newblock {\em JAMA}, 279(10):790--791.
+
 \bibitem[Livingston and Callinan, 2015]{livingston2015underreporting}
 Livingston, M. and Callinan, S. (2015).
 \newblock Underreporting in alcohol surveys: whose drinking is underestimated?
 \newblock {\em Journal of studies on alcohol and drugs}, 76(1):158--164.
+
+\bibitem[Mackenbach et~al., 2008]{mackenbach2008socioeconomic}
+Mackenbach, J.~P., Stirbu, I., Roskam, A.-J.~R., Schaap, M.~M., Menvielle, G.,
+  Leinsalu, M., and Kunst, A.~E. (2008).
+\newblock Socioeconomic inequalities in health in 22 {E}uropean countries.
+\newblock {\em New England Journal of Medicine}, 358(23):2468--2481.
 
 \bibitem[M{\"a}kel{\"a} and {\"O}sterberg, 2009]{makela2009weakening}
 M{\"a}kel{\"a}, P. and {\"O}sterberg, E. (2009).
@@ -162,7 +189,7 @@ Martikainen, P., M{\"a}kel{\"a}, P., Peltonen, R., and Myrskyl{\"a}, M. (2014).
 
 \bibitem[McKee and Shkolnikov, 2001]{mckee2001}
 McKee, M. and Shkolnikov, V. (2001).
-\newblock Understanding the toll of premature death among men in eastern
+\newblock Understanding the toll of premature death among men in {E}astern
   {E}urope.
 \newblock {\em BMJ: British Medical Journal}, 323(7320):1051.
 
@@ -259,6 +286,12 @@ Roerecke, M. and Rehm, J. (2014).
   of the impact of heavy drinking occasions on risk for moderate drinkers.
 \newblock {\em BMC medicine}, 12(1):182.
 
+\bibitem[Rychtarikova, 2004]{rychtarikova2004case}
+Rychtarikova, J. (2004).
+\newblock The case of the czech republic: Determinants of the recent favourable
+  turnover in mortality.
+\newblock {\em Demographic Research}, 2:105--138.
+
 \bibitem[Sasson, 2016]{sasson2016trends}
 Sasson, I. (2016).
 \newblock Trends in life expectancy and lifespan variation by educational
@@ -268,7 +301,7 @@ Sasson, I. (2016).
 \bibitem[Seaman et~al., 2016]{seaman2016increasing}
 Seaman, R., Leyland, A.~H., and Popham, F. (2016).
 \newblock Increasing inequality in age of death at shared levels of life
-  expectancy: a comparative study of scotland and england and wales.
+  expectancy: a comparative study of scotland and {E}ngland and {W}ales.
 \newblock {\em SSM-population health}, 2:724--731.
 
 \bibitem[Seligman et~al., 2016]{seligman2016equity}
@@ -293,6 +326,13 @@ Shkolnikov, V.~M., Andreev, E.~E., and Begun, A.~Z. (2003).
 \newblock Gini coefficient as a life table function: computation from discrete
   data, decomposition of differences and empirical examples.
 \newblock {\em Demographic Research}, 8(11):305--358.
+
+\bibitem[Shkolnikov et~al., 2006]{shkolnikov2006changing}
+Shkolnikov, V.~M., Andreev, E.~M., Jasilionis, D., Leinsalu, M., Antonova,
+  O.~I., and McKee, M. (2006).
+\newblock The changing relation between education and life expectancy in
+  central and eastern europe in the 1990s.
+\newblock {\em Journal of Epidemiology \& Community Health}, 60(10):875--881.
 
 \bibitem[Shkolnikov et~al., 2011]{shkolnikov2011}
 Shkolnikov, V.~M., Andreev, E.~M., Zhang, Z., Oeppen, J., and Vaupel, J.~W.
@@ -327,7 +367,7 @@ van Raalte, A.~A., Martikainen, P., and Myrskyl{\"a}, M. (2014).
 \bibitem[Vaupel and Canudas-Romo, 2003]{vaupel&Canudas2003}
 Vaupel, J.~W. and Canudas-Romo, V. (2003).
 \newblock Decomposing change in life expectancy: A bouquet of formulas in honor
-  of nathan keyfitz’s 90th birthday.
+  of {N}athan {K}eyfitz’s 90th birthday.
 \newblock {\em Demography}, 40(2):201--216.
 
 \bibitem[Vaupel et~al., 2011]{vaupel2011}
@@ -345,6 +385,16 @@ Wilmoth, J.~R. and Horiuchi, S. (1999).
 \bibitem[{{World Health Organization}}, 2000]{who2000}
 {{World Health Organization}} (2000).
 \newblock The world health report 2000: health systems: improving performance.
+
+\bibitem[{{World Health Organization}}, 2009]{world2009european}
+{{World Health Organization}} (2009).
+\newblock European status report on road safety: towards safer roads and
+  healthier transport choices.
+
+\bibitem[{{World Health Organization}}, 2013]{world2013global}
+{{World Health Organization}} (2013).
+\newblock Global status report on road safety 2013: supporting a decade of
+  action.
 
 \bibitem[Zhang and Vaupel, 2009]{zhang2009}
 Zhang, Z. and Vaupel, J.~W. (2009).
