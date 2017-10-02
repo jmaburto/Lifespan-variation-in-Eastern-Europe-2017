@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.3)  5 SEP 2017 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.3)  11 SEP 2017 15:07
 entering extended mode
 **"./Abstract 050917.tex"
 ("Abstract 050917.tex"
@@ -615,12 +615,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
@@ -665,7 +665,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
@@ -675,6 +675,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
+[13]
 Missing character: There is no ï in font cmr10!
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -694,12 +695,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
-[14]
+
 Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 214--215
 
  []
@@ -721,22 +722,22 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 ) [20]
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 \OT1/cmr/m/n/10 Y40-Y84,W00-W19,W65-W74,W75-
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 247--248
+Underfull \hbox (badness 4120) in paragraph at lines 252--253
 \OT1/cmr/m/n/10 X50-X59, Y85-Y91, Y95-Y98) and
  []
 
 
-Overfull \hbox (7.21284pt too wide) in paragraph at lines 236--253
+Overfull \hbox (7.21284pt too wide) in paragraph at lines 241--258
  [] 
  []
 
 [21]
-Overfull \hbox (28.74324pt too wide) in paragraph at lines 265--294
+Overfull \hbox (28.74324pt too wide) in paragraph at lines 270--299
  [][] 
  []
 
@@ -744,10 +745,10 @@ Overfull \hbox (28.74324pt too wide) in paragraph at lines 265--294
 File: Figures/Romi_males.pdf Graphic file (type pdf)
 
 <use Figures/Romi_males.pdf>
-Package pdftex.def Info: Figures/Romi_males.pdf used on input line 305.
+Package pdftex.def Info: Figures/Romi_males.pdf used on input line 310.
 (pdftex.def)             Requested size: 476.98349pt x 357.7376pt.
 
-Overfull \hbox (4.95226pt too wide) in paragraph at lines 305--306
+Overfull \hbox (4.95226pt too wide) in paragraph at lines 310--311
  [] 
  []
 
@@ -755,14 +756,14 @@ Overfull \hbox (4.95226pt too wide) in paragraph at lines 305--306
 File: Figures/ex_males.pdf Graphic file (type pdf)
 
 <use Figures/ex_males.pdf>
-Package pdftex.def Info: Figures/ex_males.pdf used on input line 318.
+Package pdftex.def Info: Figures/ex_males.pdf used on input line 323.
 (pdftex.def)             Requested size: 404.07625pt x 281.72028pt.
 
 <Figures/ed_males.pdf, id=504, 1010.20851pt x 704.31319pt>
 File: Figures/ed_males.pdf Graphic file (type pdf)
 
 <use Figures/ed_males.pdf>
-Package pdftex.def Info: Figures/ed_males.pdf used on input line 319.
+Package pdftex.def Info: Figures/ed_males.pdf used on input line 324.
 (pdftex.def)             Requested size: 404.07625pt x 281.72028pt.
 
 
@@ -776,7 +777,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures/changes_males.pdf Graphic file (type pdf)
 
 <use Figures/changes_males.pdf>
-Package pdftex.def Info: Figures/changes_males.pdf used on input line 331.
+Package pdftex.def Info: Figures/changes_males.pdf used on input line 336.
 (pdftex.def)             Requested size: 469.74944pt x 469.74944pt.
 
 
@@ -786,11 +787,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Figures/Age_ed_decomp_Males.pdf Graphic file (type pdf)
 
 <use Figures/Age_ed_decomp_Males.pdf>
-Package pdftex.def Info: Figures/Age_ed_decomp_Males.pdf used on input line 343
+Package pdftex.def Info: Figures/Age_ed_decomp_Males.pdf used on input line 348
 .
 (pdftex.def)             Requested size: 488.54802pt x 375.80615pt.
 
-Overfull \hbox (16.51678pt too wide) in paragraph at lines 343--344
+Overfull \hbox (16.51678pt too wide) in paragraph at lines 348--349
  [] 
  []
 
@@ -802,7 +803,7 @@ File: Figures/Cause_ed_decomp_Males_1.pdf Graphic file (type pdf)
 
 <use Figures/Cause_ed_decomp_Males_1.pdf>
 Package pdftex.def Info: Figures/Cause_ed_decomp_Males_1.pdf used on input line
- 355.
+ 360.
 (pdftex.def)             Requested size: 421.33209pt x 383.02917pt.
 
 
@@ -813,13 +814,13 @@ File: Figures/Cause_ed_decomp_Males_2.pdf Graphic file (type pdf)
 
 <use Figures/Cause_ed_decomp_Males_2.pdf>
 Package pdftex.def Info: Figures/Cause_ed_decomp_Males_2.pdf used on input line
- 367.
+ 372.
 (pdftex.def)             Requested size: 421.33209pt x 383.02917pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
 [24 <./Figures/ex_males.pdf> <./Figures/ed_males.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/ed_males.pdf): PDF inclusion: multiple
@@ -827,17 +828,17 @@ pdfTeX warning: pdflatex (file ./Figures/ed_males.pdf): PDF inclusion: multiple
 >] [25 <./Figures/changes_males.pdf>] [26 <./Figures/Age_ed_decomp_Males.pdf>]
 [27 <./Figures/Cause_ed_decomp_Males_1.pdf>] [28 <./Figures/Cause_ed_decomp_Mal
 es_2.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
  ("Abstract 050917.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 385.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 385.
 Package rerunfilecheck Info: File `"Abstract 050917".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 385.
  ) 
 Here is how much of TeX's memory you used:
- 9924 strings out of 493328
- 149070 string characters out of 3139116
+ 9926 strings out of 493328
+ 149092 string characters out of 3139116
  261443 words of memory out of 3000000
  13210 multiletter control sequences out of 15000+200000
  10637 words of font info for 38 fonts, out of 3000000 for 9000
@@ -879,9 +880,9 @@ c/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on "Abstract 050917.pdf" (28 pages, 1251863 bytes).
+Output written on "Abstract 050917.pdf" (28 pages, 1252308 bytes).
 PDF statistics:
- 856 PDF objects out of 1000 (max. 8388607)
- 120 named destinations out of 1000 (max. 500000)
+ 857 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
