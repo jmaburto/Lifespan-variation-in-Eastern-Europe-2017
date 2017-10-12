@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Abstract 041017.aux
+The style file: apalike.bst
+Database file #1: Aburto.bib
+Warning--can't use both volume and number fields in menon2001pathogenesis
+You've used 67 entries,
+            1935 wiz_defined-function locations,
+            876 strings with 17831 characters,
+and the built_in function-call counts, 28932 in all, are:
+= -- 2824
+> -- 1371
+< -- 36
++ -- 498
+- -- 474
+* -- 2659
+:= -- 5050
+add.period$ -- 196
+call.type$ -- 67
+change.case$ -- 569
+chr.to.int$ -- 67
+cite$ -- 68
+duplicate$ -- 950
+empty$ -- 1884
+format.name$ -- 573
+if$ -- 5518
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 61
+newline$ -- 332
+num.names$ -- 201
+pop$ -- 430
+preamble$ -- 1
+purify$ -- 569
+quote$ -- 0
+skip$ -- 741
+stack$ -- 0
+substring$ -- 2191
+swap$ -- 100
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 400
+warning$ -- 1
+while$ -- 241
+width$ -- 0
+write$ -- 854
+(There was 1 warning)
