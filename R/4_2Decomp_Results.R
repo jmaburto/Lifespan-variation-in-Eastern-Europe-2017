@@ -16,7 +16,7 @@ source("R/Functions.R")
 Data            <- data.table(Decomp.results)
 Data$Age5       <- (cut(Data$age+1, breaks=c(seq(0,110,5),Inf),labels=Labels.age))
 Data            <- Data[,list(Contribution = sum(Contribution)), by = list(country,sex,year,Ind,Age5)]
-Data$Period     <- (cut(Data$year+1, breaks=c(1960,1981,1989,1995,2000,Inf),labels=Period.labels))
+Data$Period     <- (cut(Data$year+1, breaks=c(1960,1981,1989,1995,2001,Inf),labels=Period.labels))
 Data            <- Data[,list(Contribution = sum(Contribution)), by = list(country,sex,Period,Ind,Age5)]
                                                                           
   

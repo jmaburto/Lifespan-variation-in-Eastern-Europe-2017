@@ -1,0 +1,11 @@
+name: CEE_App
+title: CEE_App
+account: demographs
+server: shinyapps.io
+appId: 260422
+bundleId: 1192323
+url: https://demographs.shinyapps.io/CEE_App/
+when: 1516882364.51758
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Decomp_Shiny_app.R

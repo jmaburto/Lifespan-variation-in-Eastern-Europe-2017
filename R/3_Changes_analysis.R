@@ -6,7 +6,7 @@ library(ggplot2)
 library(ggthemes)
 library(ecp)
 
-setwd(  "C:/Users/jmaburto/Documents/GitHub/Lifespan-variation-in-Eastern-Europe")
+setwd(  "C:/Users/jmaburto/Documents/GitHub/Lifespan-variation-in-Eastern-Europe-2017")
 
 load("Data/HMD_Data.RData")
 source("R/Functions.R")
@@ -26,16 +26,10 @@ Data.dif <- Data[,list(dif.ed = get.dif.fun(ed,relative = 1),
                        dif.ed.rel = get.dif.fun(ed,relative = 2)*100,
                        dif.ex.rel = get.dif.fun(ex,relative = 2)*100,
                        year = Year[-1L]),by = list(PopName,Country,Sex)]
+Data.dif$Period     <- (cut(Data.dif$year+1, breaks=c(1960,1981,1989,1995,2000,Inf),labels=Period.labels))
 
+unique(Data.dif$year)
 
-Data.dif$Period <- 0
-Data.dif[Data.dif$year>=1960 & Data.dif$year<=1987,]$Period <- 1
-Data.dif[Data.dif$year>=1988 & Data.dif$year<=1994,]$Period <- 2
-Data.dif[Data.dif$year>=1995,]$Period <- 3
-Data.dif$Period   <- factor(Data.dif$Period,levels=c(1:3),labels=c("1960-1987","1988-1995","1996 onwards"))
-
-
-  
 Data.dif$Category2 <-  4
 Data.dif[Data.dif$dif.ed >= 0 & Data.dif$dif.ex >= 0, ]$Category2  <-3
 Data.dif[Data.dif$dif.ed < 0 & Data.dif$dif.ex < 0, ]$Category2 <- 1
@@ -57,7 +51,7 @@ abs.dif.male <- ggplot(Data.dif[Data.dif$Sex == 'Male',], aes(dif.ed, dif.ex,col
   geom_hline(aes(yintercept=0),show.legend = F,linetype=2,size=.6, colour="gray48")+
   geom_point(show.legend = F,size =2.5)+
   scale_colour_manual('Country', values = c(makeTransparent("#e7657d",150),makeTransparent('gray71',100), "deepskyblue4"))+
-  facet_wrap(~Period)+
+  facet_wrap(~Period,nrow = 1)+
   #theme_minimal(base_size = 18)+
   theme_fivethirtyeight(base_size = 18)+
   theme(panel.border = element_rect(fill=NA,color="black", size=0.5, 
@@ -77,7 +71,7 @@ abs.dif.female <- ggplot(Data.dif[Data.dif$Sex == 'Female',], aes(dif.ed, dif.ex
   geom_hline(aes(yintercept=0),show.legend = F,linetype=2,size=.6, colour="gray48")+
   geom_point(show.legend = F,size =2.5)+
   scale_colour_manual('Country', values = c(makeTransparent("#e7657d",150),makeTransparent('gray71',100), "deepskyblue4"))+
-  facet_wrap(~Period)+
+  facet_wrap(~Period,nrow = 1)+
   #theme_minimal(base_size = 18)+
   theme_fivethirtyeight(base_size = 18)+
   theme(panel.border = element_rect(fill=NA,color="black", size=0.5, 
@@ -87,8 +81,6 @@ abs.dif.female <- ggplot(Data.dif[Data.dif$Sex == 'Female',], aes(dif.ed, dif.ex
                             linetype = 0, colour = NA))+
   scale_y_continuous( expression(paste('Changes in ',e[0])),limits = c(-3.2,3.2)) +
   scale_x_continuous( expression(paste('Changes in ',e^"\u2020")),limits = c(-3.2,3.2))
-
-
 
 
 abs.dif.female
@@ -104,7 +96,7 @@ rel.dif.male <- ggplot(Data.dif[Data.dif$Sex == 'Male',], aes(dif.ed.rel, dif.ex
   geom_hline(aes(yintercept=0),show.legend = F,linetype=2,size=.6, colour="gray48")+
   geom_point(show.legend = F,size =2.5)+
   scale_colour_manual('Country', values = c(makeTransparent("#e7657d",150),makeTransparent('gray71',100), "deepskyblue4"))+
-  facet_wrap(~Period)+
+  facet_wrap(~Period,nrow = 1)+
   #theme_minimal(base_size = 18)+
   theme_fivethirtyeight(base_size = 18)+
   theme(panel.border = element_rect(fill=NA,color="black", size=0.5, 
@@ -124,7 +116,7 @@ rel.dif.female <- ggplot(Data.dif[Data.dif$Sex == 'Female',], aes(dif.ed.rel, di
   geom_hline(aes(yintercept=0),show.legend = F,linetype=2,size=.6, colour="gray48")+
   geom_point(show.legend = F,size =2.5)+
   scale_colour_manual('Country', values = c(makeTransparent("#e7657d",150),makeTransparent('gray71',100), "deepskyblue4"))+
-  facet_wrap(~Period)+
+  facet_wrap(~Period,nrow = 1)+
   #theme_minimal(base_size = 18)+
   theme_fivethirtyeight(base_size = 18)+
   theme(panel.border = element_rect(fill=NA,color="black", size=0.5, 
@@ -141,11 +133,11 @@ rel.dif.female
 #### now print them
 
 require(gridExtra)
-pdf(file="Outcomes/changes_males.pdf",width=10,height=10,pointsize=6,useDingbats = F)
+pdf(file="Outcomes/changes_males.pdf",width=15,height=10,pointsize=6,useDingbats = F)
 grid.arrange(abs.dif.male,rel.dif.male,nrow = 2)
 dev.off()
 
-pdf(file="Outcomes/changes_females.pdf",width=10,height=10,pointsize=6,useDingbats = F)
+pdf(file="Outcomes/changes_females.pdf",width=15,height=10,pointsize=6,useDingbats = F)
 grid.arrange(abs.dif.female,rel.dif.female,nrow = 2)
 dev.off()
 
@@ -157,7 +149,9 @@ dev.off()
 
 Proportions <- Data.dif[, get.prop.fun(Data = .SD), by = list(Sex,Period)]
 Proportions <- Proportions[order(Period),]
-Proportions
+Proportions[Proportions$Sex=='']
+
+Proportions[Proportions$Sex =='Male']
 
 
 

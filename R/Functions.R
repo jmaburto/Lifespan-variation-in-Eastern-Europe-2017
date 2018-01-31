@@ -1,3 +1,58 @@
+
+life.expectancy.frommx.5 <- compiler::cmpfun(function(mx,sex = "f"){
+  i.openage <- length(mx)
+  OPENAGE   <- i.openage - 1
+  RADIX     <- 1
+  ax        <- mx * 0 + .5
+  ax[1]     <- AKm02a0(m0 = mx[1], sex = sex)
+  qx        <- mx / (1 + (1 - ax) * mx)
+  qx[i.openage]       <- ifelse(is.na(qx[i.openage]), NA, 1)
+  ax[i.openage]       <- 1 / mx[i.openage]                   
+  px 				    <- 1 - qx
+  px[is.nan(px)]      <- 0
+  lx 			        <- c(RADIX, RADIX * cumprod(px[1:OPENAGE]))
+  dx 				    <- lx * qx
+  Lx 				    <- lx - (1 - ax) * dx
+  Lx[i.openage ]	    <- lx[i.openage ] * ax[i.openage ]
+  Tx 				    <- c(rev(cumsum(rev(Lx[1:OPENAGE]))),0) + Lx[i.openage]
+  ex 				    <- Tx / lx
+  ex[6]
+})
+
+edag.function.frommx.5 <- compiler::cmpfun(function(mx,sex="f"){
+  i.openage <- length(mx)
+  OPENAGE   <- i.openage - 1
+  RADIX     <- 1
+  ax        <- mx * 0 + .5
+  ax[1]     <- AKm02a0(m0 = mx[1], sex = sex)
+  qx        <- mx / (1 + (1 - ax) * mx)
+  qx[i.openage]       <- ifelse(is.na(qx[i.openage]), NA, 1)
+  ax[i.openage]       <- 1 / mx[i.openage]                   
+  px 				    <- 1 - qx
+  px[is.nan(px)]      <- 0
+  lx 			        <- c(RADIX, RADIX * cumprod(px[1:OPENAGE]))
+  dx 				    <- lx * qx
+  Lx 				    <- lx - (1 - ax) * dx
+  Lx[i.openage ]	    <- lx[i.openage ] * ax[i.openage ]
+  Tx 				    <- c(rev(cumsum(rev(Lx[1:OPENAGE]))),0) + Lx[i.openage]
+  ex 				    <- Tx / lx
+  l             <- length(ex)
+  
+  dx.lx         <- dx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]))+dx[l]*ex[l]
+  ed            <- c(rev(cumsum(rev(dx.lx))),dx[l]*ex[l])/lx + ex[l]
+  ed[6]
+})
+
+
+
+e.dagger.LT.5X <- function(fx,ex,ax=ax,lx){
+  l <- length(ex)
+  dx.lx         <- fx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]))+fx[l]*ex[l]
+  ed            <- c(rev(cumsum(rev(dx.lx))),fx[l]*ex[l])/lx + ex[l]
+  ed[6]
+}  
+
+
 ### Functions to reproduce results from Aburto & van Raalte, 2017
 labels.cause <- c('Attributable to alcohol','IHD','Stroke','Transportation accidents',
                   'Other external causes','Infectious & respiratory diseases','Cancers',
@@ -68,7 +123,13 @@ get.dif.fun <- function(f, relative = 1){
   dif.f <- diff(f,lag = 1)/y
   dif.f
 }
-  
+
+
+e.dagger.LT.5 <- function(fx,ex,ax=ax,lx){
+  l <- length(ex)
+  v <- (sum(fx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]) )) + ex[l])/lx[1]
+  return(v)         
+}  
   
 e.dagger.LT <- function(fx,ex,ax=ax){
   l <- length(ex)
