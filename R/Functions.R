@@ -43,7 +43,7 @@ edag.function.frommx.5 <- compiler::cmpfun(function(mx,sex="f"){
   ed[6]
 })
 
-
+  
 
 e.dagger.LT.5X <- function(fx,ex,ax=ax,lx){
   l <- length(ex)

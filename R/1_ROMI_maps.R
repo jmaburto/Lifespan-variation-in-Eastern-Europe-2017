@@ -78,15 +78,25 @@ Eastern.DT <- data.table(Eastern.DT)
 
 Ro.Data   <- Eastern.DT[, Ro.function(Data = .SD), by = list (PopName,country,sex)]
 
+CEE <- sort(c('Bulgaria','Czhech Republic','Hungary','Poland','Slovakia','Slovenia'))
+BC  <- sort(c('Estonia','Latvia','Lithuania'))
+FSU <- sort(c('Belarus','Russia','Ukraine'))
+
+Ro.Data$Region <- 1                                                                        
+Ro.Data[Ro.Data$country %in% BC,]$Region <-2
+Ro.Data[Ro.Data$country %in% FSU,]$Region <-3
+Ro.Data$Region <- as.factor(Ro.Data$Region)
+levels(Ro.Data$Region) <- c('CEE','BC','FSU')
 
 # A bounding to get better visualization
 Ro.Data$Ro2 <- Ro.Data$Ro
 Ro.Data[Ro.Data$Ro < -10,]$Ro2 <- -10
 Ro.Data[Ro.Data$Ro > 10,]$Ro2  <-  10
 
+
 romi.m <- ggplot(Ro.Data[Ro.Data$sex == 'Male' & Ro.Data$Age < 101,], aes(Year, Age, z = -Ro2 )) +
     ggtitle('Rates of mortality improvements', subtitle = 'Males')+
-    facet_wrap(~country)+ 
+    facet_wrap(~Region + country,nrow =4,labeller = label_wrap_gen(multi_line=FALSE))+
     scale_x_continuous('Year', expand = c(0, 0)) +
     scale_y_continuous('Age', expand = c(0, 0)) +
     geom_tile(aes(fill = -Ro2))+
@@ -100,7 +110,7 @@ romi.m <- ggplot(Ro.Data[Ro.Data$sex == 'Male' & Ro.Data$Age < 101,], aes(Year, 
     scale_fill_gradientn(colours = colorspace::diverge_hcl(5),name= 'Change (%)')
     
   romi.m
-  pdf(file="Outcomes/Romi_males.pdf",width=12,height=9,pointsize=6,useDingbats = F)
+  pdf(file="Outcomes/Romi_males.pdf",width=9,height=11,pointsize=6,useDingbats = F)
   print(romi.m)
   dev.off()
   
@@ -109,7 +119,7 @@ romi.m <- ggplot(Ro.Data[Ro.Data$sex == 'Male' & Ro.Data$Age < 101,], aes(Year, 
     ggtitle('Rates of mortality improvements', subtitle = 'Females')+
     scale_x_continuous('Year', expand = c(0, 0)) +
     scale_y_continuous('Age', expand = c(0, 0)) +
-    facet_wrap(~country)+ 
+    facet_wrap(~Region + country,nrow =4,labeller = label_wrap_gen(multi_line=FALSE))+
     geom_tile(aes(fill = -Ro2))+
     theme_fivethirtyeight(base_size = 18)+ 
     #theme_hc(base_size = 18)+
@@ -121,7 +131,7 @@ romi.m <- ggplot(Ro.Data[Ro.Data$sex == 'Male' & Ro.Data$Age < 101,], aes(Year, 
     scale_fill_gradientn(colours = colorspace::diverge_hcl(5),name= 'Change (%)')
   
   romi.f
-  pdf(file="Outcomes/Romi_females.pdf",width=12,height=9,pointsize=6,useDingbats = F)
+  pdf(file="Outcomes/Romi_females.pdf",width=9,height=11,pointsize=6,useDingbats = F)
   print(romi.f)
   dev.off()
   

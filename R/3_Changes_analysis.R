@@ -26,7 +26,6 @@ Data.dif <- Data[,list(dif.ed = get.dif.fun(ed,relative = 1),
                        dif.ed.rel = get.dif.fun(ed,relative = 2)*100,
                        dif.ex.rel = get.dif.fun(ex,relative = 2)*100,
                        year = Year[-1L]),by = list(PopName,Country,Sex)]
-Data.dif$Period     <- (cut(Data.dif$year+1, breaks=c(1960,1981,1989,1995,2000,Inf),labels=Period.labels))
 
 unique(Data.dif$year)
 
@@ -42,6 +41,9 @@ Data.dif[Data.dif$dif.ed < 0 & Data.dif$dif.ex < 0, ]$Category <-   1
 Data.dif[Data.dif$Country=='Russia', ]$Category <- 3
 Data.dif$Category   <- factor(Data.dif$Category,levels=c(1:3),labels=c('Negative','Positive','Russia'))
 
+save(Data.dif, file = 'R/Sensitivity Analysis/CEE_App/Association.RData')
+
+Data.dif$Period     <- (cut(Data.dif$year+1, breaks=c(1960,1981,1989,1995,2000,Inf),labels=Period.labels))
 ### Plots of first differences versus first differences
 
 
