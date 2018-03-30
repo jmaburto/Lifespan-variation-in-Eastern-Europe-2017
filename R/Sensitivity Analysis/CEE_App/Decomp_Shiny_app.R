@@ -20,9 +20,9 @@ unique(Decomp.results$year)
 runApp()
 
 b0 <- 1960
-b1 <- 1981
-b2 <- 1989
-b3 <- 1995
+b1 <- 1980
+b2 <- 1988
+b3 <- 1994
 b4 <- 2000
 b5 <- Inf
 

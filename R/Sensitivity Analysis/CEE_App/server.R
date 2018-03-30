@@ -106,10 +106,10 @@ shinyServer(
       T3 <- T1[,2]+T1[,4]
       
       T4 <- round(rbind(T2,T3)*100,2)
-      row.names(T4) <- rev(c('same direction (%)', 'opposite direction (%)'))
+      row.names(T4) <- c('Unexpected direction (%)', 'Expected direction (%)')
       
       
-      datatable(T4, options = list(paging=FALSE,ordering=T,searching=F),rownames = T)
+      datatable(t(T4), options = list(paging=FALSE,ordering=T,searching=F),rownames = T)
     })
     
     output$association <- renderPlot({
@@ -390,10 +390,10 @@ shinyServer(
       T3 <- T1[,2]+T1[,4]
       
       T4 <- round(rbind(T2,T3)*100,2)
-      row.names(T4) <- rev(c('same direction (%)', 'opposite direction (%)'))
+      row.names(T4) <- c('Unexpected direction (%)', 'Expected direction (%)')
       
       
-      datatable(T4, options = list(paging=FALSE,ordering=T,searching=F),rownames = T)
+      datatable(t(T4), options = list(paging=FALSE,ordering=T,searching=F),rownames = T)
     })
     
     
