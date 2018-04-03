@@ -1,0 +1,10 @@
+The analysis is quite comprehensive, and done carefully. The methods and technical details of the analysis seem appropriate.
+
+But I don't think some interesting and important results are properly highlighted or summarized. The abstract states: "Our results showed that life disparity was high and strongly fuctuating over the time period. Life expectancy and life disparity moved independently from one another, particularly during periods of life expectancy stagnation." This is a fairly "plain" description of the results, missing some interesting patterns identifiable in the results.
+
+In the results, e0 and e† do not look independent, but are negatively associated for 1988-1995 and 1996 onwards. (Since e0 was fairly stationary for 1960-1987, the association could not be strong in that period anyway.) The decomposition analysis indicates that much of the changes in e† are attributable to increases and decreases (recovery form increase) in middle-age (and younger old-age) mortality, particularly for males in the former USSR countries. This is an interesting result, which should be more highlighted. Also this makes a sharp contrast with typical patterns observed in "Western" countries, which went through two stages, increases in lifespan and decreases in dispersion up to around 1970, driven mainly by reduction in young-age mortality, and increases in lifespan and small increases in dispersion after around 1970, driven by the shift of high mortality to older ages. The West versus East differences are mentioned, but should be made clearer and summarized better.
+
+Also, it will help readers if the 12 countries are distinctly split into two or three subgroups based on their differential patterns of time trend in e0 and e† and if the grouping is used consistency throughout the paper.
+
+A minor comment.  I felt that the term "fluctuation" was overused in this paper. For example, changes in e0 and e† due to the anti-alcohol campaigns and those around the USSR dissolution are systematic changes due to identifiable, solid reasons. They seem too strong and too clear to be called "fluctuations". 
+

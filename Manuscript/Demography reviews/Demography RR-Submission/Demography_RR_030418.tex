@@ -1,0 +1,418 @@
+\documentclass{article}
+\usepackage{filecontents}
+\usepackage[left=2.5cm,top=2.5cm,right=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{placeins}
+\usepackage[colorlinks=true,citecolor=blue]{hyperref}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{natbib}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\bibpunct{(}{)}{,}{a}{}{;}
+\usepackage{url}
+\usepackage{nth}
+\usepackage{authblk}
+\usepackage{multirow}
+\usepackage{listings}
+% for the d in integrals
+\newcommand{\dd}{\; \mathrm{d}}
+\newcommand{\tc}{\quad\quad\text{,}}
+\newcommand{\tp}{\quad\quad\text{.}}
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+\bibliographystyle{apalike}
+\usepackage[table]{xcolor} 
+
+\title{Lifespan dispersion in times of life expectancy fluctuation: the case of Central and Eastern Europe}
+
+\author[]{Authors Redacted}
+\date{}
+\begin{document}
+
+
+\maketitle
+
+\begin{abstract}
+Central and Eastern Europe (CEE) have experienced considerable instability in mortality since the 1960s. Long periods of stagnating life expectancy were followed by rapid increases in life expectancy and, in some cases, even more rapid declines, before more recent periods of improvement. These trends have been well documented but to date, no study has comprehensively explored trends in lifespan variation.  We improve such analyses by incorporating life disparity as a health indicator alongside life expectancy, examining trends since the 1960s for 12 countries from the region. Generally life disparity was high and strongly fluctuating over the period. For nearly 30 of these years, life expectancy and life disparity moved independently from one another, largely because mortality trends ran in opposite directions over different ages. Furthermore, we quantified the impact of large classes of diseases on life disparity trends since 1994 using a newly harmonized cause of death time series for 8 countries in the region. Mortality patterns in CEE countries were heterogeneous and run counter to the common patterns observed in most developed countries. They contribute to the life expectancy-disparity discussion by showing that expansion/compression levels do not necessarily mean lower/higher life expectancy or mortality deterioration/improvements.
+\end{abstract}
+
+
+\newpage
+
+\begin{spacing}{1.5}
+\section*{Introduction}
+The \nth{20} century was marked by sizable improvements in mortality and health in most countries in the world \citep{who2000}. However, these improvements were unevenly shared in the second half of the past century, as parts of Central and Eastern Europe experienced an unprecedented period of stagnation and, in some countries, decrease in life expectancy at birth around  the mid-1960s \citep{HMD}. The long term combination of a failure to complete the epidemiologic transition by reducing cardiovascular diseases \citep{caselli2002epidemiologic}, along with fluctuation in alcohol and violence, particularly in the countries of the former Soviet Union (FSU) \citep{bye2008alcohol,leon1997huge}, led to lower levels of life expectancy and larger within-country mortality inequalities according to education level in this region compared to western countries in Europe \citep{mackenbach2008socioeconomic}. The high mortality among young men is at the heart of the unstable Eastern European trends in life expectancy \citep{mckee2001}. For example, male life expectancy stagnated at a level between 65 and 70 years from the 1960s to the mid-1980s in most countries of the region. Russia experienced the lowest male life expectancy in the region over this period, which was followed by a brief period of sizable improvements in life expectancy due to Gorbachev's anti-alcohol campaign \citep{leon1998social}. After 1987 the mortality experiences in the region diverged. Life expectancy increased continuously in parts of Central Europe. The rest of the countries, particularly those from the former Soviet Union, experienced a pronounced period of deterioration up to the mid-1990s. Mortality increases among Russian and Latvian men were especially sharp, with life expectancy losses of around 7.5 years between 1987 and 1994, which led to levels not seen since the 1950s \citep{shkolnikov2001}. Since the mid-1990s, life expectancy has mostly been increasing throughout the region, but at different rates. As a result, large regional differences in survival have emerged. For instance, the 2010 gap in male life expectancy between Slovenia and Russia was more than 13 years \citep{HMD}.\\
+
+National trends in life expectancy are important and have been extensively studied in the region \citep{mesle2004mortality, mesle2000, rychtarikova2004,shkolnikov2001,shkolnikov2006changing,leon2011}. Nonetheless, as an average, life expectancy conceals considerable heterogeneity in individual mortality trajectories \citep{edwards2005, wilmoth1999}. This age-at-death variation, hereafter referred to as life disparity or lifespan variation, is an important dimension of inequality as it summarizes this heterogeneity at the population level and uncertainty in the timing of death at the individual level. Until now, trends in lifespan variation have mostly been studied in the context of mortality decline at all ages \citep{edwards2005,smits2009,vaupel2011}. Alongside increases in life expectancy, ages at death have become more predictable (i.e. lifespan variation has decreased). This is because mortality decline over young ages has outpaced mortality decline at older ages, compressing most deaths into a narrower age window \citep{vaupel2011}.\\
+
+This need not be the case. At the subpopulation level, numerous instances have been documented of lifespan variation increase occurring alongside increases in life expectancy \citep{vanraalte2014,sasson2016trends,seaman2016increasing, bronnum-hansen2017}, mainly due to stalls in working age mortality decline occurring alongside continued old age mortality decline. To date, no comprehensive studies of lifespan variation have been undertaken under periods of life expectancy decline.\\
+
+We complement the existing literature by focusing on the Central and Eastern European case, which shows atypical periods of mortality upheaval and substantial life expectancy changes. This region is particularly interesting because its age pattern of mortality change was very different from that observed in western countries \citep{mesle2004mortality}. Since the largest deviations in age-specific mortality occurred over working ages \citep{rehm2007}, it is a priori unclear what the net effect would be on variability. We analyzed how lifespan variation has changed since the 1960s for 12 countries from this region and determined the ages and causes of death that contributed the most to the observed change in lifespan variation, with a particular focus on the impact of alcohol-attributable mortality. 
+%
+%Our analyses revealed three important findings: (1) the acute mortality crises of the 1990s caused greater year-to-year fluctuation in lifespan variation than in life expectancy, (2) life expectancy and lifespan variation moved independently, particularly during periods of stagnation and uneven age-specific mortality change, and (3) mortality amenable to alcohol consumption occurred over ages that both increased and decreased lifespan variation, with different net effects depending on the country and time period. These results underscore the added value of looking at other summary measures of mortality beyond the mean.
+
+
+\section*{Data \& Methods}
+
+\subsection*{Dispersion measure \& demographic methods}
+
+For each population, we investigated life expectancy and lifespan variation since birth. We decided not to analyze variability at death conditioned on survival to a childhood age, as previous studies have done (e.g. \citet{edwards2005, smits2009}), because of the arbitrariness of choosing a starting age and because infancy and childhood are major contributors to lifespan inequalities that we did not want to overlook. We focused on five periods determined by trends in the coefficient of variation of male life expectancy. The periods were labeled ``Stagnation'' from 1960 to 1980, ``Improvements'' from 1980 to 1988, ``Deterioration'' from 1988-1994, ``Divergence'' between 1994 and 2000, and ``Convergence'' thereafter. Periods were initially determined using a divisive hierarchical estimation algorithm for multiple change points analysis.\footnote{Using the package \textbf{ecp} in \textit{R}} The statistical break points were 1960, 1976, 1986, 1993 and 2001. We instead used complete decades or historical events which made the interpretation of the results easier, which were all within 3 years of the cut points. For example, the period 1960-1979 (complete years) included the two decades with no substantial changes in the coefficient of variation between life expectancies. The next break point (1986) was extended to 1988 to include completely Gorbachev's anti-alcohol campaign, which was implemented in the period 1985-1988. The following break point was used exactly since it allows the period 1988-1993 to include the dissolution of the Soviet Union in late 1991 and the largest drops in life expectancy in Russia, Latvia, Estonia, Lithuania, and less marked in Ukraine, Belarus, and Bulgaria in 1992-1993. Finally, the year 2001 was changed to 2000 to start with the 21st century.
+
+
+ 
+Several dispersion measures have been proposed to analyze lifespan variability \citep{vanraalte2013, wilmoth1999}. In this article, we use life disparity ($e^{\dagger}$) as a dispersion indicator \citep{vaupel&Canudas2003}. It is defined as the average remaining life expectancy when death occurs; or life years lost due to death.  For example, when death is highly variable, some people will die well before their expected age at death, contributing many lost years to life disparity. When survival is highly concentrated around older ages, the difference between the age at death and the expected remaining years decreases, and life disparity gets smaller.  It can be expressed as
+\begin{equation}
+\label{eq.edagger}
+e^{\dagger}=\int_0^\omega d(a)e(a)da
+\end{equation}
+where $d(a)$ , $\omega$ and $e(a)$ are the deaths distribution, the open-aged interval (110+ in our case), and remaining life expectancy, respectively.\footnote{The discrete formula from lifetable functions used is $\sum_{x=0}^{109}[d(x)(e(x) + a(x)*[e(x+1)-e(x)]] + d(110+)*e(110+)$} 
+We selected this measure because of its easy public health interpretation, which equals the average life expectancy losses attributable to death \citep{shkolnikov2011}, and its decomposable and additive properties \citep{zhang2009}. The $e^\dagger$ measure has the additive property that, once it has been decomposed by age between two periods, the sum of every age-specific contribution to the difference is the total change in $e^\dagger$ between these two periods. These properties allow us to quantify the impact of mortality at different ages, and from different causes, and to separate ages that decrease lifespan variability from those that increase it by using demographic methods \citep{zhang2009, shkolnikov2011}. An important attribute of $e^\dagger$ is the so-called threshold age at which mortality improvements have zero effect on lifespan variation \citep{zhang2009}. Progress in saving lives below this age reduces variation (also called premature deaths), whereas progress above this age increases variation in lifespans \citep{vaupel2011}.\\
+
+The decomposition method used in this paper is based on the line integral model \citep{horiuchi2008}. Suppose $f$ (e.g. $e^\dagger$) is a differentiable function of $n$ covariates (e.g. each age-cause specific mortality rate) denoted by the vector $\vect{A} = \left[x_1,x_2,\ldots,x_n \right]^T$. Assume that $f$ and $\vect{A}$ depend on the underlying dimension $t$, which is time in this case, and that we have observations available in two time points, $t_1$ and $t_2$. Assuming that $\vect{A}$ is a differentiable function of $t$ between $t_1$ and $t_2$, the difference in $f$ between $t_1$ and $t_2$ can be expressed as follows:
+\begin{equation}
+\label{eq.decom}
+f_2-f_1 = \sum_{i = 1}^n \int_{x_i(t_1)}^{x_i(t_2)}\frac{\partial f}{\partial x_i}dx_i=\sum_{i = 1}^nc_i ,
+\end{equation}
+where $c_i$ is the total change in $f$ (e.g. $e^\dagger$) produced by changes in the $i$-th covariate, $x_i$. The $c_i$'s in equation \eqref{eq.decom} were computed by numerical integration following the algorithm suggested by \citet{horiuchi2008}. This method has the advantage of assuming that covariates change gradually along the time dimension.\\
+
+We decomposed mortality by single age, period and cause of death. For the age-cause decomposition we used the 5-year age group mortality rates from the \cite{HcO}. All the calculations were performed using \textit{R} \citep{team2000r} and are fully reproducible with the available \href{}{code and additional information}\footnote{Link to code removed to avoid identifying information}.\\
+
+The close relationship with other lifespan variation indices, such as Keyfitz's life table entropy \citep{vaupel&Canudas2003}, and the high correlation between them suggests that conclusions would likely be the same regardless of the measure chosen \citep{vanraalte2013,vaupel2011,wilmoth1999}.\\
+
+
+\subsection*{Data}
+We used all-cause death counts, population exposures and period life tables from the \citet{HMD} for 12 countries from 1960 to the most recent year available in the data set. The countries included in the study were from what will subsequently be referred to as \textit{Central Europe} (Bulgaria, Czech Republic, Hungary, Poland, Slovakia, Slovenia), \textit{the Baltic countries} (Estonia, Latvia, and Lithuania), and other former Soviet countries \textit{(FSU)} (Belarus, Russia, Ukraine). Data for Slovenia was only available from 1983. The data are by single age, year, sex and country.\\
+
+Cause of death data came from the newly developed \citet{HcO}, which provides coherent cause-specific mortality data time series from 1994 to 2010 for eight of the countries in the study (Belarus, Czech Republic, Poland, Russia, Ukraine, Estonia, Latvia and Lithuania). For inclusion into the database, a universal and standardized methodology was undertaken to redistribute deaths between 104 disease categories in 5-year age groups. We used these data to get the cause-specific proportion by 5-year age groups. This has effectively eliminated ruptures surrounding revisions of the International Classifications of Disease (ICD), and substantially reduced cross-country comparability problems owing to different coding practices, particularly from the use of ill-defined and unknown causes. We truncated the cause-of-death analysis at age 85 because of classification quality and presence of comorbidities and focus on the period after 1994 because comparable information is available for the eight countries \citep{HcO}. Furthermore, we focus on this period because it coincides with the beginning of the divergence in Eastern European mortality trends, particularly between the former Soviet and Central European countries \citep{mesle2004mortality}.\\
+
+\emph{Cause of death classification}\\
+
+We grouped causes of death into the following broad categories, with a harmonized time series from 1994 to 2010:  deaths wholly attributable to alcohol, circulatory disease, transport accidents, other external causes, infectious and respiratory diseases, cancers, and rest of causes (for details on the ICD-10 codes for each cause, see Table \ref{T1}). \\
+
+Our objective in classifying disease was twofold. First we aimed to see which broad causes of death were the important drivers in changing life disparity levels over the period. Second, knowing that injurious alcohol consumption has long been identified as a major determinant of premature mortality in Eastern European countries, particularly of the FSU \citep{leon1997huge,mckee2005composition,	mckee2001,rehm2007,zaridze2009alcohol,
+zaridze2014alcohol,grigoriev2015}, we aimed for a classification that could at least partially shed light on mortality change due to changing alcohol patterns and mortality change owing to improvements in lifestyle and medical care. \\
+
+Attributing mortality to alcohol is not straightforward. For one, unlike smoking, heavy alcohol consumption can have both immediate and cumulative impacts on mortality. In any period certain causes, for instance traffic accidents or alcohol poisoning, may change immediately in response to changing consumption patterns, while others, for instance liver cirrhosis, mainly reflect past consumption behaviour \citep{ menon2001pathogenesis, rehm2003relationship}, and still others are such as ischemic heart disease (part of circulatory disease) have been implicated in both immediate binge drinking mortality \citep{kauhanen1997beer} and elevated mortality risks from long-term heavy drinking \citep{roerecke2014alcohol}. Thus using a cause of death based attribution method is only sensible in countries with relatively stable temporal patterns of alcohol consumption \citep{kraus2015changes,martikainen2014income}, which is certainly not the case in our study. \\
+
+Instead we grouped causes by the degree to which they associate with alcohol consumption and abuse and further large categories that have undergone major changes through the epidemiologic transition.  Deaths wholly attributable to alcohol refer to those health conditions that by the ICD definition identifies alcohol consumption as a necessary cause and that previous research has identified as wholly attributable to alcohol consumption \citep{rehm2010relation}. We additionally include liver cirrhosis in this first category because around three-quarters of deaths from this cause in the region are thought to be attributable to alcohol \citep{rehm2003relationship}, and it is common practice to include it as a condition attributable to alcohol consumption \citep{rehm2003relationship,rehm2010relation}. However, circulatory disease and transport accidents are also amenable to alcohol consumption, meaning that while many of these deaths do not relate to alcohol, changes in hazardous alcohol consumption would be expected to increase or decrease the baseline levels.  As such we pay careful attention to when these two causes co-move with large changes in causes wholly attributable to alcohol. Although additional rare causes of death can be linked to alcohol consumption, we do not include them in our study because their absolute contributions to mortality change are likely to be very small in the set of countries that we study \citep{grigoriev2015}.\\
+
+
+\begin{center}
+[Table \ref{T1} about here]
+\end{center}
+
+
+
+In what follows, we present our results on Central and Eastern European males only. Mortality change was larger and more abrupt among men, which more clearly illustrates the added value of looking to lifespan variation in times of crisis. In most cases, trends were similar for both sexes, but the magnitude of change was less for females. Full results are presented in the supplemental material for females.\\
+
+
+
+\section*{Results}
+\emph{Age specific rates of mortality improvement}\\
+
+For a descriptive look at age-specific mortality change over the period, we first examined the average annual rate of mortality improvement \citep{Rau2013} with smoothed mortality surfaces \citep{Camarda2012} for males in the 12 Central and Eastern European countries \ref{Fig_ROMI}. The respective values are expressed in percent. Little change or no improvement (-0.5\% to 0.5\%) is depicted in white. Improvement in mortality (i.e. mortality decline) is shown in blue and mortality increase in red. Darker tones mean major changes in mortality rates.\\
+
+Almost every country experienced a near-continuous 20-year period of increasing mortality rates, from the mid-1960s to the mid-1980s. Mortality rate increases were mainly concentrated in the ages between 20 and 80 years. After 1985, the Baltic 	 countries experienced sizable reductions in mortality rates for a period of around 5 years. This was less evident in Central European countries, with the exception of Poland. Opposing this trend, in the early 1990s the same countries that had made the most progress in reducing mortality experienced intense mortality increases, particularly over working ages. Finally, since the mid to late 1990s trends in the region diverged: Central European countries experienced mortality reduction over nearly every age, as did the Baltic countries of Latvia and Estonia. Russia, Ukraine and Lithuania experienced a second sharp period of mortality increase over working ages in the early 2000s, while age-specific trends in Belarus fell somewhere in between the Baltic and other FSU countries. Since the mid-2000s, all countries have experienced mortality improvement.\\
+
+
+
+\begin{center}
+[Figure \ref{Fig_ROMI} about here]
+\end{center}
+
+\emph{Trends in life expectancy and lifespan disparity}\\
+
+Figure \ref{Fig_LE&LD} shows male $e_0$ and $e^{\dagger}$ trends for Central and Eastern European countries from 1960 to the most recent year available. From 1960 to 1984 $e_0$ stagnated for most of the countries, some of them even experienced a slow and steady decline (e.g. Russia, Latvia, Estonia, and Ukraine). This period was followed by a notable increase in $e_0$ in the mid-1980s, closely corresponding to, although sometimes preceding, Gorbachev's anti-alcohol campaign shaded in red. However, after 1987 life expectancy among these countries started to diverge: Central European countries experienced a short period of stagnation or decline followed by an upward trend until the end of the study. The Baltic and other FSU countries experienced a marked decrease in $e_0$ from 1988 to 1994. From that point on, $e_0$ improved everywhere, with the exception of Lithuania and the other FSU countries. These last countries exhibited a final decrease (Russia, Lithuania) or stagnation (Belarus, Ukraine) in life expectancy between 1998 and the mid-2000s, followed by sharp increases in the final period from the mid-2000s to the latest available year. Estonia experienced particularly rapid improvements in life expectancy since the mid 1990's, especially among women (appendix Fig 2). \\
+
+Life disparity showed similar patterns of stagnation between 1960 and 1980 as was seen for $e_0$. Russia and Lithuania exhibited the highest levels in this period, between 17 and 19 years lost due to death; while the Czech Republic presented the lowest level throughout the same years, between 13 and 14 years. Importantly, the Czech Republic was not the regional record $e_0$ holder during these years. Around the mid-1980s all countries experienced compression of mortality, i.e. decreases in $e^{\dagger}$, with the exception of Hungary. After 1991, Russia and the Baltic countries experienced significant increases in $e^{\dagger}$ with the peak in 1994-1995. During this peak, the observed $e_0$ levels differed from historic levels observed when $e^{\dagger}$ was equally high. Central European countries experienced continuous reductions in $e^{\dagger}$ after 1994, whereas it was less systematic in Latvia and Lithuania. The rest of the countries also experienced declines after that year up to 2010-2014, but with greater fluctuation. Such declines, however, were not as steep as the $e_0$ increases in these countries.\\
+ 
+\begin{center}
+[Figure \ref{Fig_LE&LD} about here]
+\end{center}
+
+\emph{Absolute and relative changes in life expectancy and lifespan disparity}\\
+
+
+Contrasting the changing levels of $e_0$ and $e^\dagger$ from Figure \ref{Fig_LE&LD} suggests that in periods of stagnation and mortality upheavals similar levels of $e_0$ do not correspond to similar levels in $e^\dagger$. Therefore, we analyzed the direction and magnitude of change in the two measures. \\
+
+Figure \ref{Abs_changes} shows absolute and relative yearly changes (first differences) in $e_0$ and $e^\dagger$ for males by period. The periods are grouped by the changes in life expectancy trends depicted in Figure \ref{Fig_LE&LD}: stagnation\footnote{We labelled the period as ``stagnation", even though some countries experienced a steady decline, because the coefficient of variation of life expectancies during this period was stagnant.} from 1960 to 1980, improvements from 1980 to 1987, deterioration from 1987-1994, divergence from 1994-2000, and convergence over the period 2000-2010.  If a negative relationship existed between $e_0$ and $e^\dagger$, changes would concentrate in the top left and bottom right quadrants. If points fall in the top right and bottom left quadrants, the relationship was positive. We focus on the latter changes and quantify their frequency in three different time periods relating to overall mortality trends. Grey dots correspond to a negative association between life expectancy and life disparity (e.g. increases in $e_0$ with decreases in $e^\dagger$ ), while red dots correspond to a positive association (e.g. increases in $e_0$with increases in $e^\dagger$ ). Since Russia is both the largest country included in the analysis and the country with the most volatile mortality trends, we marked its points in dark blue. Absolute changes (top panel) are easy to interpret since they reflect the changes in life expectancy and life disparity measured in years. However, since the maximum value of $e_0$ is much higher than the maximum value of $e^\dagger$, it is not surprising that changes vary more strongly on the  $e_0$ axis than the $e^\dagger$ axis. Therefore, it is also important to analyze changes in both measures in relative terms (bottom panel).  This allows us to quantify the intensity of such changes.\\
+
+
+    %   Sex                   Period            prop.cuadr1            prop.cuadr2            prop.cuadr3            prop.cuadr4
+% 1: Female     Stagnation 1960-1980 32.73, CI[26.53,38.93]  12.27, CI[7.94,16.61] 24.55, CI[18.86,30.23] 30.45, CI[24.37,36.54]
+% 2:   Male     Stagnation 1960-1980 35.45, CI[29.13,41.78]    20, CI[14.71,25.29]    20, CI[14.71,25.29] 24.55, CI[18.86,30.23]
+% 3: Female   Improvements 1980-1988 32.26, CI[22.76,41.76]      8.6, CI[2.9,14.3] 32.26, CI[22.76,41.76] 26.88, CI[17.87,35.89]
+% 4:   Male   Improvements 1980-1988  25.81, CI[16.91,34.7]  13.98, CI[6.93,21.03] 21.51, CI[13.16,29.86] 38.71, CI[28.81,48.61]
+% 5: Female  Deterioration 1988-1994  19.44, CI[10.3,28.59]  37.5, CI[26.32,48.68]  16.67, CI[8.06,25.27] 26.39, CI[16.21,36.57]
+% 6:   Male  Deterioration 1988-1994   13.89, CI[5.9,21.88] 59.72, CI[48.39,71.05]   8.33, CI[1.95,14.72]  18.06, CI[9.17,26.94]
+% 7: Female     Divergence 1994-2000   8.33, CI[1.34,15.33]  13.33, CI[4.73,21.93]  13.33, CI[4.73,21.93]    65, CI[52.93,77.07]
+% 8:   Male     Divergence 1994-2000  11.67, CI[3.54,19.79]  13.33, CI[4.73,21.93]     20, CI[9.88,30.12]    55, CI[42.41,67.59]
+% 9: Female Convergence 2000-present   8.14, CI[4.05,12.23]   9.88, CI[5.42,14.34]    25, CI[18.53,31.47] 56.98, CI[49.58,64.38]
+%10:   Male Convergence 2000-present    6.4, CI[2.74,10.05]   9.88, CI[5.42,14.34] 28.49, CI[21.74,35.23]  55.23, CI[47.8,62.66]
+
+During 1960-1980, almost one-third of the yearly changes in mortality resulted in $e_0$ decreases and decreases in $e^\dagger$, in both males (35.45\%, 95\% CI [29.13,41.78] ) and females (32.73 [26.53,38.93]). These were mostly small changes corresponding to less than one year of life. Conversely, 20.00\% [14.71,25.29] (males) and 24.55\% [18.86,30.23](females) of $e_0$ increases corresponded to $e^\dagger$ increase. This means that, by adding both quadrants, the measures in this period were moving in the same direction more than half of the time. A similar patterns is shown in the period 1980-1988. In 1988-1994, when most of the changes corresponded to substantial decreases in $e_0$, the two indices moved in the same direction about a fifth of the time. Finally in the period 1994 onwards, characterized by mortality convergence, around a third of all points related to movements in the same direction for both measures. \\
+
+Moreover, even when the two measures moved in the direction expected from a negative correlation, the magnitude of change in life expectancy did not reflect the same magnitude of change in life disparity. For example, Russia lost 3 years of male life expectancy (around 5\%) between 1992 and 1993, while life disparity showed a much smaller increase (less than 2.5\%). Most of the time, however, $e^\dagger$ experienced larger relative changes than $e_0$, evidenced by more movement along the horizontal than the vertical axis in the bottom panel of Figure \ref{Abs_changes}.
+
+
+\begin{center}
+[Figure \ref{Abs_changes} about here]
+\end{center}
+
+\emph{Age-specific decomposition}\\
+
+
+
+In Figures 4-6, countries are ordered alphabetically within each region (CEE, BC and FSU) and differentiated by the background color: light grey for Central Europe, light red for Baltic countries, and light blue for other former Soviet countries. Figure  \ref{MalesDecomp} shows age-specific contributions to the change in $e^\dagger$ for ages 5 and above\footnote{For age-specific contributions to life expectancy, see the supplemental material.}, respectively, by period (results for ages 0-4 depicted in Supplemental material Figure 7\footnote{Declines in mortality below age 5 were the strongest age-category contributor to changes in life disparity over the period under study, with most of the decline occurring over the 1960-1980 period. For this reason they are plotted separately from other ages with a different scale used on the $x$-axis in the supplemental material. The decline was near monotonic in most countries, with only minor differences between countries, especially when compared to the much larger between-country differences at other ages.}). The periods are the same as in the previous Figure:  stagnation (blue), improvements (green), deterioration (red), divergence (purple), and convergence (orange). The threshold age occurs around the age-groups were changes in lifespan variation are usually the lowest by period (e.g. Russia ages 55-59, Slovakia 65-69, Slovenia 70-74). Bars on the left (decreases in variation) come about from mortality decrease at young ages or increase at old ages, separated by the threshold age. Conversely, bars on the right (increase in variation) are produced by mortality increase at young ages or mortality decrease at old ages. If the colors are all lined up on one side it suggests that mortality changed in different directions for the different ages. \\
+
+
+Over the long period of $e_0$ stagnation (blue), changes in $e^\dagger$ were driven by mortality increase at all ages above around age 20, which expanded age at death variability in young-adult ages; and compressed variation at older ages in all countries. It is worth noting that these changes mostly offset each other since the old age compression was comparable to the net expansion of mortality experienced by children and younger adults. In fact, in Bulgaria and Belarus, the compression caused by mortality increase over older ages was greater than the expansion made by mortality increase among younger ages.\footnote{Increasing mortality at older ages might have been an artifact due to improvements in data quality (see Limitations section).} A similar pattern was observed during the period of $e_0$ deterioration among Baltic and other FSU countries following the collapse of the FSU (red). Lifespan variability mostly increased, which was explained by expansion of mortality at young and middle ages, alongside smaller compression at older ages during this period. By contrast Central European countries experienced little change in mortality during this period.\\
+
+Opposing these trends, over the period of improvements during the 1980s (green), the Baltic and other FSU countries followed a western pattern with $e^\dagger$ decreases mostly caused by mortality decline at younger ages outpacing mortality decline over older ages and leading to overall compression in mortality. Mortality change was smaller and the age patterns of change were more variable in Central European countries during this period. From 1994 onward (purple and orange), all countries experienced $e^\dagger$ compression at younger ages and expansion at older ages overall. However in the early years (1994-2000), mortality increases at younger ages led to increases in $e^\dagger$ in Russia, Ukraine and Belarus before reversing itself in recent years. Importantly, during this post-1994 period, mortality changes at relatively young ages (20-50) had the largest impact on $e^\dagger$ changes\\
+
+
+
+\begin{center}
+[Figure \ref{MalesDecomp} about here]\\
+\end{center}
+
+\emph{The contribution of different causes of death to changes in lifespan variability}\\
+
+Table \ref{T2} shows the net contribution of different broad causes of death to changes in life disparity for the most recent periods of divergence (1994-2000) and convergence (2000-2010). From 1994 to 2010 all the countries included in our study experienced decreasing $e^\dagger$. Life disparity was reduced by nearly a year in the Central European countries, equally spread out between both periods, and owing primarily to mortality from transport accidents and cancers. In the Baltic countries, life disparity declined by between 1.2 (Latvia) and 2.8 (Estonia) years. Declines were strong over both periods, driven by transport accidents and other external causes. Mortality wholly attributable to alcohol was also an important driver of life disparity changes in Lithuania in the earlier period. Finally, the other FSU countries showed little change in life disparity over the earlier period, and strong declines in the second period. Like with the other country groupings, changes in other external mortality seemed to be driving net changes in life disparity. Belarus was the only country to experience increases in life disparity from causes of death that were wholly attributable to alcohol. \\
+
+
+\begin{center}
+[Table  \ref{T2} about here]\\
+\end{center}
+
+
+Figure \ref{Males_causes_1994} breaks these cause of death contributions down by ages for 1994-2000.\footnote{For age-cause-specific contributions to life expectancy in the same periods, see the supplemental material.} The sum of the age-specific contributions by causes of death result in the values in Table \ref{T2}. In Central European countries, mortality decline was driven predominately by circulatory disease, but because these declines were spread before and after the threshold age, the net impact on life disparity was small. Causes that were completely attributable to alcohol showed no change over the period, and reductions in external mortality were comparatively minor, which suggests that circulatory disease mortality reductions were not related to changing alcohol consumption in the region. In Baltic countries circulatory disease mortality reduction was strong overall, but particularly over older ages, explaining why its net contribution over all ages was to increase life disparity. Declines in external cause mortality including traffic accidents below age 50 were the largest contributors to life disparity decline. Alcohol-attributable mortality over these ages also declined, especially in Lithuania. Taken together, this suggests that reductions in hazardous alcohol consumption played some role in reducing life disparity over the period. Finally, in the other FSU countries, mortality declines over all ages were weaker, while trends in major causes of death were inconsistent over age. \\
+
+From 2000-2010 all countries experienced improvements in survival and decreases in $e^\dagger$, although from a different mixture of causes (Figure \ref{Males_causes_2000}). In Central European countries reductions in early adult cancers and circulatory disease predominated, with reductions in external mortality including traffic accidents being of secondary importance. The Baltic countries were heterogeneous over this period--Estonia experienced sharp reductions in circulatory disease mortality at all ages, and external cause mortality below age 50. Lithuania experienced virtually no change in circulatory disease mortality, some decrease in external cause mortality below age 30 and increases in mortality attributable to alcohol over ages 30-44. Latvia fell somewhere in between the two countries, with strong declines in circulatory disease mortality at older ages (which acting alone would have led to an increase in life disparity) accompanied by strong declines in external cause mortality including traffic accidents below age 35, decreasing life disparity. Life disparity also declined in the other FSU countries mainly because of declines in external cause mortality. However these declines were noticeably less in Ukraine, while circulatory diseases there actually increased at older ages, unlike in Russia and Ukraine which experienced sharp and moderate declines in circulatory disease mortality at these older ages.\\
+
+
+
+\begin{center}
+[Figures \ref{Males_causes_1994} \& \ref{Males_causes_2000} about here]\\
+\end{center}
+
+
+\subsection*{Limitations} 
+The limitations of our study should be mentioned. First, different measures of inequality differ from one other in formal properties and in the degree of their sensitivity to age-specific mortality change \citep{vanraalte2013}. Other authors have chosen measures of relative inequality, such as the Gini coefficient, Keyfitz's entropy or the Theil index of inequality \citep{shkolnikov2003,moser2005world,smits2009,colchero2016emergence}. As a robustness check, we performed a sensitivity analysis replicating all the results shown in this study with the Gini coefficient following \citet{shkolnikov2003} (see supplemental material). We did not find major differences with the results discussed in this article. \\
+
+We chose not to decisively partition mortality into alcohol and non-alcohol related mortality because of the difficulties in determining the proportion of deaths from circulatory disease and external causes that are related to alcohol. Instead we took a more cautious approach that aimed to at least partially attribute the changes in mortality trends to alcohol consumption without over or under-interpreting its absolute impact on mortality, based on the co-movements of these causes with known causes of death that are wholly attributable to alcohol. An alternative would have been to derive alcohol-attributable mortality from follow-up longitudinal studies that report consumption patterns. Even if such surveys were available for some countries included in the study, self-reported alcohol consumption data are often biased and underestimate actual consumption because individuals forget drinking occasions, underrate drink size and are not able to remember the quantity of drinks in every drinking session \citep{livingston2015underreporting,bellis2009off}. A third commonly used approach is to link mortality with changes in alcohol sales \citep{ evgeny2010beverage}. A limitation to this approach is that the total alcohol consumption might not matter so much as the alcohol consumption behaviour. Indeed low levels of alcohol consumed at a regular basis may even be protective against mortality \citep{bell2017,rehm2010relation, klatsky1974alcohol, roerecke2014alcohol}. Moreover, alcohol sales do not include homemade alcohol, which is substantial in the region \citep{popova2007comparing,mckee2005composition}, and can be distorted by alcohol tourism \citep{makela2009weakening,rabinovich2009affordability}. \\
+
+There could be concerns with the quality of the data used in a comparative temporal setting. First, the FSU and Central European countries used a less strict definition of live births compared to the WHO definition, which had the result of artificially depressing infant mortality levels	 \citep{aleshina2005,unicef2003social}. All countries eventually shifted to the WHO definition, although the timing of this shift differed between and within countries, with some regions beginning the shift even before the dissolution of the FSU \citep{anderson1986infant, aleshina2005, unicef2003social}. Since indices of lifespan variation are comparatively more sensitive to changes in infant mortality than life expectancy \citep{vanraalte2013}, we investigated whether our results would be robust to the following assumptions: (1) a doubling of infant mortality prior to 1990, followed by a linear decrease to 10 percent higher rates in 2000, and constant inflation of 10 percent thereafter,\footnote{\citet{kingkade2001infant} published adjustment factors which were generally much lower than the doubling that we used here. Thus this adjustment should be seen as a conservative rather than realistic adjustment to test the robustness of our findings. For the 1960-1980 period, inflating the infant mortality by anywhere up to 77\% for males and 95\% for females resulted in yearly changes in life expectancy and life disparity moving in unexpected directions up to 50\% (see \url{https://demographs.shinyapps.io/CEE_App/})} and (2) mortality conditional upon survival to age 5. While these scenarios created some differences in the direction of trends, particularly over the communist period where infant mortality decline was substantial, our two main conclusions from this period still held: (1) life expectancy and life disparity moved independently during the years before the fall of the Berlin wall, (2) trends in life disparity were especially driven by trends in early adult mortality. The results of these robustness checks are available in the online Appendix.\\
+
+Second, the \citet{HMD} data used in this project is the highest quality and most comparable data available for the region. However, the data quality differs between countries, age groups and periods, and is well documented in the database. The main data quality concerns which have been flagged in the region include: age heaping and likely age exaggeration in many FSU countries and Bulgaria in the 1960s \citep{grigoriev2017,jasilionis2017Latvia, jdanov2017, pyrozhkov2017, philipov2017}; lower quality data above age 80 in Belarus in the 1970s \citep{grigoriev2017} and Russia after the mid-1990s \citep{jdanov2017}; and consistency problems in population estimates in Lithuania for the 1960s and 1970s \citep{jasilionis2017Lithuania}, in Estonia during the 1990s \citep{jasilionis2017Estonia} and in Slovenia \citep{jasilionis2017Slovenia}. Age heaping is less of a problem for life table summary measures, but age exaggeration is difficult to correct for and could have led to artificially worsening mortality at older ages as data quality improved. While a degree of caution should be applied in interpreting mortality differences and trends for these periods, age groups and countries, even if we were to exclude all instances of these flagged problems, the broader patterns of mortality development that we document here still hold.\\   
+
+
+Third, in the Soviet era ill-defined cardiovascular diseases were often classified as 'atherosclerotic cardiosclerosis', which is a subset of ischemic heart diseases \citep{jasilionis2011,shkolnikov2012data}. Different countries abandoned this practice at different rates, which had the effect of misclassifying deaths between the IHD, stroke and 'other circulatory disease' categories. While some degree of misclassification within circulatory disease is corrected for by the \citet{HcO} team \citep{Pechholdova2017}, for comparative purposes we felt it safer to combine all circulatory disease categories. \\
+
+Finally, there could be concern about data quality relating to high emigration throughout the post-Soviet period. However, robustness checks conducted for Poland and Czech Republic \citep{Fihel2017} and the Baltic countries \citep{jasilionis2011} showed that underestimated emigration resulted in an overestimation of life expectancy of up to four months in Poland during the intense outflows following accession to European Union, but in other countries and periods was usually equivalent to less than one month.\\
+
+
+\section*{Discussion}
+
+The results derived from this study allowed us to analyze and compare long time series in life disparity for 12 countries from Central and Eastern Europe. They shed light into the determinants of variation in age at death across time and countries. In addition, we looked into the causes of death that were responsible for the major changes in lifespan variation in the region. This is the first comparative study of the region making use of the \citet{HcO}. Over the study period, the acute mortality crises of the 1990s caused greater year-to-year fluctuation in lifespan variation than in life expectancy. Life expectancy and life disparity moved independently from one another, particularly during periods of life expectancy stagnation caused by uneven age-specific mortality change. Changes in life disparity were, to a large extent, caused by changes in mid-life mortality, with different net effects depending on the country and time period. \\
+
+ 
+\emph{Changes in life expectancy ($e_0$) and life disparity ($e^\dagger$)}\\
+
+Previous studies have found a close negative correlation between life expectancy and life disparity when measured over all ages  \citep{ wilmoth1999,vaupel2011,colchero2016emergence}. These studies were carried out over long periods of a hundred years or more, and mostly included Western countries with near-monotonic life expectancy increases. Importantly, two major phenomena were observed from the mid-nineteenth Century to the present: first was a drastic reduction of infectious disease mortality followed later by a major decline in cardiovascular disease mortality. These epidemiological changes can equally be considered as a redistribution of deaths from young to middle ages and later from middle to older adult ages \citep{robine2001redefining}. In both cases, contemporaneous mortality decline over ``younger'' ages (defined as ages that compress mortality into a smaller age interval) outpaced decline over ``older'' ages (ages where mortality decline leads to deaths occurring over a larger age interval), which caused life disparity to decrease in lockstep with life expectancy increase.\\
+
+Central and Eastern European countries run counter to this narrative. Although they too experienced the sharp declines in infectious disease mortality up to the mid-twentieth Century, mortality at mid-life stalled or even increased for most of the last half of the twentieth Century \citep{mckee2001}, with no appreciable declines in cardiovascular mortality until very recently \citep{caselli2002epidemiologic, grigoriev2014recent,mesle2004mortality,Timonin2017}. As our results made clear, mortality change at different ages was far from even, with the result that changes in lifespan variation did not correspond in intensity or even direction with changes observed in life expectancy.\\
+
+Moreover, by looking at long term trends in life expectancy and lifespan variation in the region, it was apparent that between-country differences in lifespan variation have and continue to be larger (in relative terms) than between-country differences in life expectancy (coefficients of variation for $e_0$ and $e^\dagger$ in 2014 are 0.06 and 0.11, respectively). However, while mortality change after the break-up of the Soviet Union led to sharply diverging trends in life expectancy, divergence in lifespan variation between countries was less dramatic. This complements recent work by \citet{timonin2016disparities} who found that differences between geopolitical regions in life expectancy were more important than increasing within-region disparities in ages at death in driving life expectancy divergence in developed countries from 1970 to 2010.\\
+
+From a public health perspective, these results are important because they disclose inequalities underlying population health that could not be identified by looking at life expectancy alone. As previously noted, the full distribution of deaths is characterized not only by the mean (life expectancy), but also by the dispersion in ages at death \citep{edwards2005}. Periods of increasing lifespan variability underscore both a rise in within-group heterogeneity at the population level and increasing uncertainty about the timing of death at the individual level. Similar episodes have been found previously for some countries and they are seen as outliers that are not following the classic western trend \citep{wilmoth1999}. For instance, stagnating or increasing lifespan variation has been seen alongside life expectancy increase among lower socioeconomic groups or regions in Europe \citep{vanraalte2014,bronnum-hansen2017,seaman2016increasing}. In the United States, lower educated groups have experienced both life expectancy decreases and increases in lifespan variation \citep{sasson2016trends}. More recently, much attention has been paid to poor trends in mid-life mortality among white Americans, particularly females \citep{case2015rising,montez2013trends}. As noted by \citet{gillespie2014divergence}, the challenge of reducing young-adult mortality could anticipate a new pattern characterized by increases in lifespan inequality. Our results are further proof of the independence of the two measures during long periods with atypical mortality schedules and illustrate the need to monitor lifespan variation for a complete picture of population health.\\
+
+\emph{Age-specific contributions to changes in $e^\dagger$}\\
+
+Life expectancy increases with mortality improvements at all ages. However, lifespan variation increases or decreases depending on the balance of saving lives at ``younger ages'', which compresses mortality into a smaller age interval and at ``older ages'' where saving lives leads to greater variability \citep{zhang2009, gillespie2014divergence}. These properties indicate that life expectancy and lifespan variation have different sensitivities to mortality changes over the age-span \citep{vanraalte2013}. Thus, lifespan variation, when measured across the entire age range, depends on two processes: premature and old-age mortality. Mortality compresses or expands, depending on the balance between these two processes. Our results for Central and Eastern Europe, which run counter the western narrative, are a product of different sensitivity of life expectancy and lifespan variation to mortality age-patterns.  Typically, trends in lifespan variation are thought to be driven by changes in the ``younger age'' component of lifespan variation, with variation from the ``older age'' mortality component holding steady. For instance, \citet{vaupel2011} found that old age life disparity was stable at between 2.5 and 8 years from the period 1840 to 2009 in countries of the \cite{HMD}. \citet{gillespie2014divergence} showed that changes in lifespan variation in Canada, Japan and the United States was almost entirely driven by younger ages. \citet{vanraalte2014} discovered that at similar life expectancy levels, Finnish occupational classes had similar older age lifespan variation, but varied widely in younger age lifespan variability over the time period 1971-2010. By contrast, in this study, we found high irregularity in lifespan variation owed to changes in both the younger and older age components. For instance, in Bulgaria during the 1987 to 1994 period, lifespan variation increased because of increased mortality at younger ages and continued mortality reduction at older ages.\\
+
+Below age 5 almost every country experienced sizable progress in averting deaths, particularly in the 1960 to 1980 period. These results are consistent with previous research documenting improvements in infant mortality and deterioration in young and middle-aged mortality leading to a substantial deterioration in the health status in the region \citep{chenet1996}. \\
+
+At the same time, our results revealed a paradox of sorts. On the one hand, between-country differences in lifespan variation were more stable than between-country differences in life expectancy. On the other hand, changes in lifespan variation were more sensitive to year-to-year mortality fluctuations than life expectancy, particularly when viewed on a relative scale. Measures of dispersion are more sensitive to mortality change in early mid-life than life expectancy \citep{vanraalte2013}. Mortality between ages 25 and 50 experienced larger changes in response to crises than older adult mortality over the period, seen clearly in Figure 1. This explains why life disparity showed greater year-to-year fluctuation than life expectancy. Meanwhile, mortality differences over older working ages and among the early retired have a larger impact on life expectancy than life disparity. This is because these ages are found on either side of the threshold age, with mortality declines (or increases) often offsetting each other, so that the net impact is no change in lifespan variation. As a result, the combination of mortality changes over younger ages with growing mortality differentials at older adult ages can lead to widening between-country inequalities in life expectancy, alongside stable life disparity differences.
+\\
+
+\emph{Cause-of-death contributions to changes in $e^\dagger$ after 1994}\\
+
+The impact of alcohol on mortality has been extensively studied in Russia, which experienced the largest mortality swings in the region \citep{leon1997huge,rehm2007, shkolnikov2013components,shkolnikov2001}. Alcohol-related mortality is also known to have played an important role in mortality trends since the 1980s in the Baltic and other countries of the FSU \citep{rehm2007,jasilionis2011}, 
+although its specific impact on lifespan variation has not been thoroughly investigated. To date, only \citet{shkolnikov2003}'s study on Russia between 1979 and 1989 has analyzed the ages and causes of death contributing to changing lifespan variation in the region. They found that early-adult mortality compression during this period was attributed to a decrease in alcohol-related mortality as a consequence of Gorbachev's anti-alcohol campaign. We extended this cause-of-death analysis to include more countries (Belarus, Czech Republic, Estonia, Latvia, Lithuania, Poland, Russia and Ukraine), and focused on the 1994-2010 post-Soviet years. While 1994 was the height of the crisis following the dissolution of the Soviet Union, the years that followed were characterized by between-country divergence in mortality coinciding with widely differing economic and political transitions to a market economy, and a more recent period of convergence with sustained mortality decline experienced by all countries in the region.\\
+
+Fluctuating alcohol-related mortality was an important component of the moving life disparity trends in the countries of the former Soviet Union, although it occurred to different degrees in each region, and manifested itself in different causes. Over young ages, a large role was found for the reduction of external cause mortality including traffic accidents in the Baltic countries throughout the period, and in Russia, Belarus and Ukraine from 2000 onwards. Since these causes often co-moved with mortality directly attributable to alcohol over these ages it is suggestive that healthier patterns of alcohol consumption were contributing to these reductions in life disparity. At older ages, between-country differences in mortality reduction seemed to be driven by the extent of mortality reduction from circulatory diseases. In addition, alcohol consumption is not the only factor that explains mortality trajectories in the region, or the sole explanation for difference between life expectancy and lifespan variation levels with western European countries. Other factors, such as environmental pollution, medical care, smoking behaviors and diet have been important determinants of health outcomes in this region since at least 1970 \citep{bobak1996east}. Indeed, the strong declines in circulatory disease mortality in the Baltic countries \citep{jasilionis2011}, and more recently Russia \citep{grigoriev2014recent} have been seen as hopeful signs that these countries are finally on a path toward the lower levels of cardiovascular mortality that have been achieved in the west. \\
+
+In contrast to the Baltic and other FSU countries, the smoother trends in life disparity found in Central Europe were driven by sustained declines in circulatory disease and cancers, with external causes playing a much smaller role, and no change in mortality directly attributable to alcohol. This is consistent with others who have argued that the steady post-1990 improvements in mortality in the region were attributable to a combination of improvements in medicine, a reorganization of the health care system, and general shifts toward healthier behavior including improving diets and reductions in smoking \citep{pajkak2011cardiovascular, zatonski1998ecological, Fihel2017, cifkova2010, cooper1984rising, rychtarikova2004,nolte2000changingb,nolte2000changing}. We additionally identified a recent stagnation (since 2010) in Russian lifespan variation. By looking into decomposition results after 2010, our results suggest that this could be a result of a slowdown in mortality improvements below age 60 offset by larger progress above this age. A recent article by \cite{Timonin2017} suggests that this could be a result of uneven progress in reducing cardiovascular mortality at the subregional level in Russia offset by convergence in under-60 mortality \\ 
+
+Preventing external mortality at young ages has been previously highlighted as an immediate factor to reduce differences in lifespan variability. \citet{firebaugh2014lifespans} argued that allocating resources to reducing homicides in the American black population was more likely to narrow racial disparities in lifespan variation than tackling more common causes of death. In this sense, most reductions in life disparity in the region were caused by improvements in mortality at young ages after 1994, particularly in external causes. The decline in these causes of death also increased life expectancy \citep{trias2017contribution}, and contributed toward convergence between countries in the region in lifespan variation, as we showed. Similarly to some developed countries such as Canada, France, Germany, Japan, among others \citep{seligman2016equity}, cancers and cardiovascular diseases helped to increase life expectancy in CEE, but they did not account for most life disparity reductions.\\
+
+Mortality associated to the most hazardous forms of alcohol consumption, such as alcohol liver disease or poisoning by exposure to alcohol, did not play a central role in lifespan variation levels or trends. In part, this might be because these are small causes of death to begin with in comparison to much larger causes of death such as circulatory disease or external cause mortality. Nevertheless, some countries, namely Lithuania, Russia and Latvia did show large mortality improvements in these conditions which caused compression of mortality at young ages. These differences have been pointed out previously as a partial explanation for different mortality trends in Lithuania and Belarus \citep{grigoriev2015spatial}.\\
+
+Lifespan variation, in this case $e^\dagger$, is a measure of aggregate health inequality that reveals fundamental differences in levels and trends across the countries that we studied. Therefore, analyzing lifespan dispersion together with life expectancy contributes to a deeper understanding of the impact of changing mortality trends on population health. Our results show not only that Central and Eastern European countries experience high lifespan variation and consequently experience greater fluctuation in the predictability of life, but also that life expectancy and life disparity were able to move independently, particularly in periods of stagnation in life expectancy. These uncommon findings, opposing those observed in most developed countries, show that expansion (compression) levels do not necessarily mean lower (higher) life expectancy  or mortality deterioration (improvements) when the yearly changes over time are taken into account. \\
+
+\section*{Acknowledgements}
+%The authors thank the EDSD-2015-16 cohort, Pavel Grigoriev and Domantas Jasilionis for helpful comments to an earlier version of the manuscript. 
+
+\section*{Funding}
+Redacted to avoid identifying information.
+
+\end{spacing}
+
+\newpage
+
+ \bibliography{Aburto}
+
+\newpage
+
+\section*{Figures and tables}
+
+\begin{table}[h!]
+\caption{Classification of causes-of death amenable to alcohol consumption}
+\label{T1}
+\begin{center}
+ \begin{tabular}{p{10cm}p{6cm}cc}
+\hline 
+\textbf{Category} & \textbf{ICD-10 codes} \\ 
+\hline 
+\textbf{1) Alcohol attributable conditions} & \\
+Mental and behavioral disorders due to use of alcohol, alcohol liver disease and cirrhosis of the liver, poisoning by exposure to alcohol&F10, K70 \& K74, X45\\
+\hline 
+\textbf{2) Amenable to alcohol consumption} & \\
+Cardiovascular diseases (Ischemic Heart Diseases, stroke, rheumatic heart diseases; essential hypertension; hypertensive disease; pulmonary heart diseases; non rheumatic valve disorders; cardiac arrest; heart failure; other heart diseases; sequelae of cerebrovascular disease; diseases of arteries, arterioles and capillaries, other circulatory diseases) and transport accidents & I20-25, I60-I67 \& G45,I00-I09; I10; I11-I15; I26-I28; I34-I38; I46; I50; I30-I33, I40-I45, I47-I49; I51; I69; I70-I78; I80-I99, and V01-V99\\
+\hline 
+\textbf{3) Other conditions amenable to alcohol consumption} & \\
+\textbf{Other external causes} (Accidental exposure to smoke, fire and flames; accidental poisoning by other substance; suicide and self-inflicted injuries; assault; event of undetermined intent; complication of medical and surgical care, accidental falls, accidental drowning and submersion, other accidental threats to breathing, other accidents and late effects of accidents) &  (X00-X09; ; X40-X44, X46-X49; X60-X84; X85-Y09, Y35, Y36; Y10-Y34; Y40-Y84,W00-W19,W65-W74,W75-W84,W20-W64, W85-W99, X10-X39, X50-X59, Y85-Y91, Y95-Y98)\\
+\hline 
+\textbf{4) Residual causes} & \\
+Rest of conditions and mortality above age 85  &\\
+\hline 
+\end{tabular} 
+\end{center}
+\end{table}
+
+% latex table generated in R 3.4.1 by xtable 1.8-2 package
+% Mon Aug 21 10:11:07 2017
+\begin{landscape}
+\rowcolors{2}{gray!25}{white}
+\begin{table}
+\centering
+\caption{Cause-specific contributions to the change in $e^\dagger$ for males, 1994-2000 \& 2000-2010}
+\label{T2}
+\begin{tabular}{lllrrrrrrr>{\bfseries}r}
+  \hline
+Period &Group& Country & Attributable to alcohol & Circulatory & Other external & Transport accidents & Infect. \& resp.  & Cancers & Rest & Total \\ 
+  \hline
+  \rowcolor{gray!50}
+1994-2000   & CEE & Czech Republic & 0.01 & -0.04 & -0.09 & -0.06 & 0.01 & -0.16 & -0.07 & -0.40 \\ 
+   & & Poland & 0.01 & 0.15 & -0.18 & -0.08 & -0.07 & -0.13 & -0.11 & -0.41 \\ 
+   &BC & Estonia & -0.04 & 0.30 & -0.78 & -0.41 & -0.01 & -0.14 & -0.03 & -1.11 \\ 
+   & & Latvia & -0.11 & 0.15 & -0.64 & -0.14 & -0.12 & -0.09 & -0.01 & -0.96 \\ 
+   & & Lithuania & -0.28 & 0.21 & -0.39 & -0.04 & -0.09 & -0.15 & -0.09 & -0.83 \\ 
+   &FSU & Belarus & 0.03 & -0.13 & 0.01 & -0.03 & 0.01 & -0.10 & 0.01 & -0.20 \\ 
+   & & Russia & -0.07 & 0.10 & -0.02 & -0.03 & 0.09 & 0.00 & -0.08 & -0.01 \\ 
+   & & Ukraine & 0.04 & -0.03 & -0.04 & -0.07 & 0.21 & -0.02 & -0.05 & 0.04 \\
+ & & & & & & & & & & \\
+    \hline
+      \rowcolor{gray!50}
+2000-2010   &CEE & Czech Republic & -0.01 & -0.00 & -0.11 & -0.14 & 0.00 & -0.23 & 0.04 & -0.45 \\ 
+   & & Poland & -0.01 & 0.11 & -0.06 & -0.16 & 0.01 & -0.16 & -0.05 & -0.32 \\ 
+   &BC & Estonia & -0.17 & 0.03 & -0.60 & -0.23 & -0.14 & -0.15 & -0.41 & -1.67 \\ 
+   & & Latvia & -0.01 & 0.17 & -0.47 & -0.34 & -0.04 & -0.02 & 0.43 & -0.28 \\ 
+   & & Lithuania & 0.05 & 0.12 & -0.35 & -0.21 & 0.01 & -0.03 & -0.53 & -0.94 \\ 
+    &FSU & Belarus & 0.02 & -0.07 & -0.33 & -0.10 & 0.01 & -0.02 & -0.17 & -0.66 \\ 
+   & & Russia & -0.06 & 0.28 & -0.70 & -0.10 & -0.03 & 0.01 & -0.12 & -0.72 \\ 
+   & & Ukraine & -0.08 & -0.09 & -0.53 & -0.04 & 0.05 & -0.01 & -0.10 & -0.80 \\ 
+   \hline
+\end{tabular}
+
+\end{table}
+\end{landscape}
+
+\newpage
+
+\begin{figure}[h!]
+\caption{Male mortality surface showing rates of mortality improvements}
+\label{Fig_ROMI}
+\centering
+\begin{center}
+\includegraphics[scale=.55]{Figures/Romi_males.pdf}
+\end{center}
+Source: own calculations based on \citet{HMD} data. 
+\begin{small}
+Note: The regular light -grey areas indicate no data available.
+\end{small}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\caption{Trends in males life expectancy ($e_0$) and lifespan disparity  ($e^{\dagger}$) for 12 Eastern European countries, 1960-2014}
+\label{Fig_LE&LD}
+\begin{center}
+\includegraphics[scale=.40]{Figures/ex_males.pdf}
+\includegraphics[scale=.40]{Figures/ed_males.pdf}
+\end{center}
+Source: own calculations based on \citet{HMD} data. 
+\end{figure}
+
+\newpage
+
+\begin{figure}[h!]
+\centering
+\caption{Absolute and relative yearly changes in life expectancy and lifespan disparity, 1960-2010}
+\label{Abs_changes}
+\begin{center}
+\vspace{-.5cm}
+\includegraphics[scale=.45]{Figures/changes_males.pdf}
+\end{center}
+Source: own calculations based on \citet{HMD} data. Note: data for Slovenia begins in 1983. The black dots are related to changes experienced in Russia. The percentages correspond to the total changes occurred during each period.
+\end{figure}
+
+\newpage
+
+\begin{figure}[h!]
+\caption{Males' age-specific contributions to the change in lifespan disparity $e^\dagger$ by periods.}
+\label{MalesDecomp}
+\centering
+\begin{center}
+\includegraphics[scale=.85]{Figures/Age_ed_decomp_Males.pdf}
+\end{center}
+Source: own calculations based on \citet{HMD} data. Note: data for Slovenia begins in 1983.
+\end{figure}
+
+\newpage
+
+\begin{figure}[h!]
+\caption{Cause specific contributions to the change in  male lifespan disparity  $e^\dagger$, 1994-2000}
+\label{Males_causes_1994}
+\centering
+\begin{center}
+\includegraphics[scale=.70]{Figures/Cause_ed_decomp_Males_1.pdf}
+\end{center}
+Source: own calculations based on \citet{HcO} data. 
+\end{figure}
+
+\newpage
+
+\begin{figure}[h!]
+\caption{Cause specific contributions to the change in  male lifespan disparity  $e^\dagger$, 2000-2010}
+\label{Males_causes_2000}
+\centering
+\begin{center}
+\includegraphics[scale=.70]{Figures/Cause_ed_decomp_Males_2.pdf}
+\end{center}
+Source: own calculations based on \citet{HcO} data. Note: data for Poland ends in 2009.
+\end{figure}
+
+
+
+
+
+%}
+%\bibliographystyle{plainnat}
+
+
+\end{document}

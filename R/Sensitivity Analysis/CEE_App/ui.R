@@ -83,7 +83,7 @@ library(plotly)
          tabPanel("Doubling IMRs",
                   sidebarLayout(
                     sidebarPanel(
-                      selectInput( 'Sex','Sex',Sexx, selected = 'Male'),
+                      selectInput( 'Sex2','Sex',Sexx, selected = 'Male'),
                       br(),
                       numericInput('r1', 'Perturbation before 1990', 2),
                       br(),

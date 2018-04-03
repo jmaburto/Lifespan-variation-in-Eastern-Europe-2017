@@ -297,8 +297,9 @@ shinyServer(
       r1 <- input$r1
       r3 <- input$r2
       r2 <- seq(r1,r3,length.out = 10)
+      sx <- input$Sex2
       
-      Data <- Data_CEE_mx[Data_CEE_mx$Sex == 'Male',]
+      Data <- Data_CEE_mx[Data_CEE_mx$Sex == sx,]
       
       Data[Data$Age == 0 & Data$Year < 1990]$mx <- Data[Data$Age == 0 & Data$Year < 1990]$mx*r1
       for (i in 1:10) {
@@ -326,8 +327,8 @@ shinyServer(
       DT2$Period     <- (cut(DT2$year+1, breaks=c(1960,1981,1989,1995,2000,Inf),labels= c("Stagnation 1960-1980","Improvements 1980-1988","Deterioration 1988-1994",
                                                                                           "Divergence 1994-2000","Convergence 2000-present")))
       ### Plots of first differences versus first differences
-      abs.dif.male <- ggplot(DT2[DT2$Sex == 'Male',], aes(dif.ed, dif.ex,colour=Category,group=Period)) +
-        ggtitle('Association between changes in life expectancy and lifespan variation, males.', subtitle = 'Absolute changes (years)')+
+      abs.dif.male <- ggplot(DT2[DT2$Sex == sx,], aes(dif.ed, dif.ex,colour=Category,group=Period)) +
+        ggtitle('Association between changes in life expectancy and lifespan variation', subtitle = 'Absolute changes (years)')+
         geom_vline(aes(xintercept=0),show.legend = F,linetype=2,size=.6, colour="gray48")+
         geom_hline(aes(yintercept=0),show.legend = F,linetype=2,size=.6, colour="gray48")+
         geom_point(show.legend = F,size =2.5)+
@@ -354,8 +355,9 @@ shinyServer(
       r1 <- input$r1
       r3 <- input$r2
       r2 <- seq(r1,r3,length.out = 10)
+      sx <- input$Sex2
       
-      Data <- Data_CEE_mx[Data_CEE_mx$Sex == 'Male',]
+      Data <- Data_CEE_mx[Data_CEE_mx$Sex == sx,]
       
       Data[Data$Age == 0 & Data$Year < 1990]$mx <- Data[Data$Age == 0 & Data$Year < 1990]$mx*r1
       for (i in 1:10) {
@@ -382,7 +384,7 @@ shinyServer(
       
       DT2$Period     <- (cut(DT2$year+1, breaks=c(1960,1981,1989,1995,2000,Inf),labels= c("Stagnation 1960-1980","Improvements 1980-1988","Deterioration 1988-1994",
                                                                                           "Divergence 1994-2000","Convergence 2000-present")))
-      males <- DT2[DT2$Sex=='Male']
+      males <- DT2[DT2$Sex==sx]
       
       
       T1 <- t(table(males$Category2,males$Period))/colSums(table(males$Category2,males$Period))
