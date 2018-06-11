@@ -3,7 +3,6 @@ library(reshape2)
 library(ggplot2)
 library(data.table)
 library(RColorBrewer)
-library(plotly)
 ###########################################################################
 ####  Load decomposition by single year and single age
 ###########################################################################
@@ -28,7 +27,7 @@ Data$Region <- 1
 Data[Data$country %in% BC,]$Region <-2
 Data[Data$country %in% FSU,]$Region <-3
 Data$Region <- as.factor(Data$Region)
-levels(Data$Region) <- c('CEE','BC','FSU')
+levels(Data$Region) <- c('CE','BC','FSU')
   
 ### Add labels to periods
 base2 <- toupper(c("#7265e7", "#e265e7", "#e7657d", "#e7bc65", "#a2e765", "#65e797", "#65c7e7"))

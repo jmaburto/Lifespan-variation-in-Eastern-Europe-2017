@@ -55,7 +55,7 @@ library(MortalitySmooth)
 # 2. Code to do the ROMI plot ---------------------------------------------
 
 
-setwd(  "C:/Users/jmaburto/Documents/GitHub/Lifespan-variation-in-Eastern-Europe")
+setwd(  "C:/Users/jmaburto/Documents/GitHub/Lifespan-variation-in-Eastern-Europe-2017")
 load("Data/HMD_Counts.RData")
 source('R/Functions.R')
 ### Subset countries in the study
@@ -86,7 +86,7 @@ Ro.Data$Region <- 1
 Ro.Data[Ro.Data$country %in% BC,]$Region <-2
 Ro.Data[Ro.Data$country %in% FSU,]$Region <-3
 Ro.Data$Region <- as.factor(Ro.Data$Region)
-levels(Ro.Data$Region) <- c('CEE','BC','FSU')
+levels(Ro.Data$Region) <- c('CE','BC','FSU')
 
 # A bounding to get better visualization
 Ro.Data$Ro2 <- Ro.Data$Ro

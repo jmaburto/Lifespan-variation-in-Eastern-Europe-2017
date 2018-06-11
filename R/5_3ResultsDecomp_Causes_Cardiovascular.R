@@ -64,7 +64,7 @@ Data$Region <- 1
 Data[Data$Country %in% BC,]$Region <-2
 Data[Data$Country %in% FSU,]$Region <-3
 Data$Region <- as.factor(Data$Region)
-levels(Data$Region) <- c('CEE','BC','FSU')
+levels(Data$Region) <- c('CE','BC','FSU')
 
 myColours2 <- c('gray','royalblue3','orangered')
 

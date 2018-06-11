@@ -3,7 +3,6 @@ library(reshape2)
 library(ggplot2)
 library(data.table)
 library(RColorBrewer)
-library(plotly)
 ###########################################################################
 
 setwd(  "C:/Users/jmaburto/Documents/GitHub/Lifespan-variation-in-Eastern-Europe")
