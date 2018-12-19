@@ -51,6 +51,8 @@ Data[Data$Period == unique(Data$Period)[5]]$color <- myColours1[5]
 mydata <- Data[Data$sex == 'Male' & Data$Ind == 'e0' & Data$Age5 != '0-4' &
                  Data$Age5 != '105-109' & Data$Age5 != '110+',]
 
+ save(mysubset,mydata,myColours1,file= 'Figure4_data.RData')
+ 
 Age.males.e0 <- ggplot() +
   ggtitle( 'Age-contribution to changes in life expectancy by period' , subtitle = 'Males')+
   geom_rect(data = mysubset, aes(fill=color),xmin =-Inf,xmax=Inf,ymin=-Inf,ymax=Inf,alpha = 0.1)+
