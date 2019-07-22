@@ -15,8 +15,8 @@ library(MortalitySmooth)
 
 # #get data from HMD
 # XYZ <- getHMDcountries()
-# us <- "jmaburto@colmex.mx"
-# pw <- "kolmogorov"
+# us <- ""
+# pw <- ""
 # 
 # setwd(  "C:/Users/jmaburto/Documents/GitHub/Lifespan-variation-in-Eastern-Europe")
 # # now grab all the lifetables and mesh together..
