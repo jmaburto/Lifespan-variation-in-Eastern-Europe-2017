@@ -4,7 +4,7 @@ library(latticeExtra)
 library(ggplot2)
 library(ggthemes)
 
-setwd(  "C:/Users/jmaburto/Documents/GitHub/Lifespan-variation-in-Eastern-Europe")
+setwd(  "C:/Users/jmabu/OneDrive - Nexus365/GitHub/Lifespan-variation-in-Eastern-Europe-2017/")
 
 load("Data/HMD_Data.RData")
 source("R/Functions.R")

@@ -39,7 +39,7 @@ edag.function.frommx.5 <- compiler::cmpfun(function(mx,sex="f"){
   l             <- length(ex)
   
   dx.lx         <- dx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]))+dx[l]*ex[l]
-  ed            <- c(rev(cumsum(rev(dx.lx))),dx[l]*ex[l])/lx + ex[l]
+  ed            <- c(rev(cumsum(rev(dx.lx))),dx[l]*ex[l])/lx 
   ed[6]
 })
 
@@ -48,7 +48,7 @@ edag.function.frommx.5 <- compiler::cmpfun(function(mx,sex="f"){
 e.dagger.LT.5X <- function(fx,ex,ax=ax,lx){
   l <- length(ex)
   dx.lx         <- fx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]))+fx[l]*ex[l]
-  ed            <- c(rev(cumsum(rev(dx.lx))),fx[l]*ex[l])/lx + ex[l]
+  ed            <- c(rev(cumsum(rev(dx.lx))),fx[l]*ex[l])/lx
   ed[6]
 }  
 
@@ -127,13 +127,13 @@ get.dif.fun <- function(f, relative = 1){
 
 e.dagger.LT.5 <- function(fx,ex,ax=ax,lx){
   l <- length(ex)
-  v <- (sum(fx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]) )) + ex[l])/lx[1]
+  v <- (sum(fx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]) )) + fx[l]*ex[l])/lx[1]
   return(v)         
 }  
   
 e.dagger.LT <- function(fx,ex,ax=ax){
   l <- length(ex)
-  v <- (sum(fx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]) )) + ex[l])
+  v <- (sum(fx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]) )) + fx[l]*ex[l])
   return(v)         
 }
 
@@ -238,7 +238,7 @@ edag.function.frommx <- compiler::cmpfun(function(mx,sex="f"){
   Tx 				    <- c(rev(cumsum(rev(Lx[1:OPENAGE]))),0) + Lx[i.openage]
   ex 				    <- Tx / lx
   l <- length(ex)
-  ed <- (sum(dx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]) )) + ex[l])
+  ed <- (sum(dx[-l]* (ex[-l] + ax[-l]*(ex[-1]-ex[-l]) )) + dx[l]*ex[l])
   ed
 })
 
@@ -322,7 +322,7 @@ ed.from.mx5 <- function(mx,sex="m"){
   ex[is.na(ex)] 	    <- 0
   ex[i.openage]       <- ifelse(mx[i.openage] == 0, ax[i.openage], {1 / mx[i.openage]})
   l <- length(ex)
-  ed <- (sum(dx[-l]* (ex[-l] + ax[-l]/Widths[-l]*(ex[-1]-ex[-l]))) + ex[l])
+  ed <- (sum(dx[-l]* (ex[-l] + ax[-l]/Widths[-l]*(ex[-1]-ex[-l]))) + dx[l]*ex[l])
   ed
 }
 
